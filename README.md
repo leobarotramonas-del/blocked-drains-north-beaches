@@ -36,4 +36,6 @@ Local pages are published as useful booking and service information; the owner s
 
 ## Checks
 
+Every HTML page includes a final FAQ section with at least 15 questions. The 45 locality pages have 17 questions each, and the 11 service pages have 16 each. Content is maintained in `src/data/faqs.ts`, using the existing service, locality and guide facts. The layout renders one FAQ section and matching FAQPage JSON-LD from the same data. The build verifies minimum counts, unique questions, bottom placement and exact visible/schema agreement. `node scripts/check-faq-browser.mjs` checks desktop/mobile FAQ keyboard controls and placement using the running local preview.
+
 `npm run capture` uses installed Chrome and Playwright to inspect desktop/mobile templates, search, menu, missing images, overflow and unwanted video requests. See `design-qa.md` for the performed checks and remaining launch decisions.

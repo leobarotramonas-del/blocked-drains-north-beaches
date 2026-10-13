@@ -8,9 +8,12 @@ import bodyFont from '@fontsource/barlow/files/barlow-latin-400-normal.woff2?url
 import '../styles/global.css';
 import { site } from '../data/site';
 import { areas } from '../data/areas';
+import Faq from '../components/Faq.astro';
+import { faqsForPage } from '../data/faqs';
 interface Props { title: string; description: string; crumbs?: { name: string; href: string }[]; schema?: Record<string, unknown>[]; noindex?: boolean }
 const { title, description, crumbs = [], schema = [], noindex = false } = Astro.props;
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+const pageFaqs = faqsForPage(pathname);
 const canonical = new URL(pathname, site.url).href;
 const indexable = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING === 'true' && !noindex;
 const analytics = import.meta.env.PROD && /^G-[A-Z0-9]+$/.test(import.meta.env.PUBLIC_GA_ID || '') ? import.meta.env.PUBLIC_GA_ID : '';
@@ -21,6 +24,7 @@ const structured = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'WebPage', '@id': `${canonical}#page`, url: canonical, name: title, description, isPartOf: { '@id': `${site.url}/#website` }, about: { '@id': `${site.url}/#business` }, inLanguage: 'en-AU' },
   ...(crumbs.length ? [{ '@type': 'BreadcrumbList', itemListElement: [{ name: 'Home', href: '/' }, ...crumbs].map((c,i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, site.url).href })) }] : []),
   ...schema,
+  { '@type': 'FAQPage', '@id': `${canonical}#faqs`, mainEntity: pageFaqs.items.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) },
 ] };
 ---
 <!doctype html>
@@ -50,7 +54,7 @@ const structured = { '@context': 'https://schema.org', '@graph': [
     <a class="header-call" href={site.tel}><span>Speak to the team</span><strong>{site.phone}</strong></a>
     <details class="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">{nav.map(([name,href]) => <a href={href}>{name}</a>)}<a href="/contact">Contact</a></nav></details>
   </div></header>
-  <main id="main">{crumbs.length > 0 && <nav class="wrap breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a>{crumbs.map((c,i) => <><span aria-hidden="true">/</span>{i === crumbs.length-1 ? <span aria-current="page">{c.name}</span> : <a href={c.href}>{c.name}</a>}</>)}</nav>}<slot /></main>
+  <main id="main">{crumbs.length > 0 && <nav class="wrap breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a>{crumbs.map((c,i) => <><span aria-hidden="true">/</span>{i === crumbs.length-1 ? <span aria-current="page">{c.name}</span> : <a href={c.href}>{c.name}</a>}</>)}</nav>}<slot /><Faq items={pageFaqs.items} title={pageFaqs.title} /></main>
   <footer><div class="wrap footer-top"><div><a class="brand" href="/"><strong>ANTONS<span class="brand-mark" aria-hidden="true">/</span></strong><span>BLOCKED DRAINS<small>NORTH BEACHES</small></span></a><p>Clear advice. Capable hands.<br />Drainage help across the Northern Beaches.</p><a class="footer-phone" href={site.tel}>{site.phone}</a></div><div><h2>Get help</h2><a href="/services/emergency-blocked-drains">Urgent drain help</a><a href="/services">All drain services</a><a href="/service-areas">Find your suburb</a><a href="/contact">Contact the team</a></div><div><h2>Know your options</h2><a href="/our-work">Real drainage work</a><a href="/drain-advice">Drain advice</a><a href="/about">About Antons</a><a href="/services/pipe-relining">Relining & repair options</a></div></div><div class="wrap footer-bottom"><p>{site.name} is operated by {site.operator}. NSW contractor licence {site.licence}.<br />A mobile service; availability and access are confirmed for your address.</p><div><a href="/privacy">Privacy</a><a href="/terms">Service terms</a><span>© {new Date().getFullYear()} Antons</span></div></div></footer>
   <a class="mobile-call" href={site.tel}><span>Blocked drain? Call the team</span><strong>{site.phone}</strong></a>
   <script>

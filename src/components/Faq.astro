@@ -3,4 +3,4 @@ import type { Faq } from '../data/site';
 interface Props { items: Faq[]; title?: string }
 const { items, title = 'A few answers before you call.' } = Astro.props;
 ---
-<section class="section faq wrap"><h2>{title}</h2><div>{items.map(item => <details><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div></section>
+<section class="section faq wrap" id="faqs" aria-labelledby="faq-heading"><h2 id="faq-heading">{title}</h2><div>{items.map(item => <details data-faq><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div></section>

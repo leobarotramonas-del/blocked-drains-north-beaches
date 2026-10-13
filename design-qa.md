@@ -1,5 +1,14 @@
 # Design and build QA
 
+## 13 October 2026 — expanded FAQs
+
+- All 70 HTML pages now have a final FAQ section with at least 15 unique questions. Locality pages have 17; service pages have 16. Contact, privacy, terms and other pages include relevant page-specific content.
+- Existing service/locality questions retained; additional answers use supplied project facts without adding response-time, price or outcome guarantees.
+- One shared route-aware source drives visible answers and FAQPage JSON-LD. Build checks enforce count, uniqueness, final placement and exact schema agreement on every HTML page.
+- Astro check and production build passed with zero diagnostics; all existing image, link and sitemap checks passed.
+- Eighteen browser checks across nine representative routes at desktop and mobile widths passed minimum counts, last-section placement, keyboard expansion/collapse and horizontal-overflow checks. Manly FAQ screenshots reviewed at both sizes.
+- GitHub-only update; no hosting, DNS or indexing-setting changes.
+
 ## 13 October 2026 — per-page photo cleanup
 
 - Replaced all six repeated-photo placements on the homepage and services directory, and replaced the near-identical second jetting gallery shot.
