@@ -7,7 +7,7 @@ export const services: Service[] = [
   {
     slug: 'emergency-blocked-drains', name: 'Emergency blocked drains', short: 'Overflowing now? Start here.',
     intro: 'A backed-up toilet or sewage overflow needs a clear next step. Call our team for urgent blocked-drain help across the Northern Beaches, with calls welcome 24/7.',
-    image: 'camera', alt: 'Antons technician inspecting an outdoor drainage access point with camera equipment',
+    image: 'pit-clearing', alt: 'Antons plumber clearing debris from an outdoor drainage pit beside a garage',
     signs: ['Sewage escaping from an outdoor gully', 'A toilet rising when another fixture drains', 'Several fixtures backing up together', 'Wastewater spreading towards rooms or walkways'],
     causes: 'An obstruction downstream can stop several fixtures from draining. Roots, compacted wipes and other debris are possible causes, but similar symptoms can also come from pipe damage or a problem beyond the property connection. The pattern of affected fixtures helps narrow the investigation.',
     approach: 'We begin with the active overflow, the affected fixtures and safe access. After assessing the line, the plumber explains the proposed clearing work. Where suitable, we restore flow with jetting or mechanical equipment, then inspect further if the cause remains uncertain or the fault has returned. Any repair is discussed separately.',
@@ -19,7 +19,7 @@ export const services: Service[] = [
   {
     slug: 'cctv-drain-inspections', name: 'CCTV drain inspections', short: 'See why the blockage returns.',
     intro: 'Understand what is happening inside your drain before committing to a repair. CCTV inspection helps identify visible roots, damaged joints, obstructions and changes in pipe condition.',
-    image: 'camera', alt: 'Antons technician feeding a CCTV inspection camera into an accessible drain',
+    image: 'drain-inspection-action', alt: 'Antons plumber feeding an inspection line into a drain access point beside a rainwater tank',
     signs: ['A drain that blocks again after clearing', 'Unexplained slow drainage across several fixtures', 'Suspected roots or a damaged underground section', 'A need to assess an accessible line before repair'],
     causes: 'A camera helps separate material lodged inside a sound pipe from defects in the pipe itself. Tree roots can enter at openings; joints can move; some sections can hold water or trap debris. Surface symptoms alone cannot establish which of these is present.',
     approach: 'We identify a suitable entry point and assess whether the line is clear enough to inspect. If water and debris hide the view, clearing may be needed first. The camera is guided through accessible sections and the visible findings are explained so you can compare maintenance, a targeted repair or relining where appropriate.',
@@ -43,7 +43,7 @@ export const services: Service[] = [
   {
     slug: 'tree-root-removal', name: 'Tree roots in drains', short: 'Clear the roots. Understand the entry point.',
     intro: 'A root mass can choke an underground drain long before there is a visible problem above ground. We investigate root intrusion, clear suitable obstructions and explain how to address the damaged entry point.',
-    image: 'roots', alt: 'Antons team member holding a long root mass removed during drainage work',
+    image: 'root-damaged-clay', alt: 'Tree roots visible around a broken terracotta drainage pipe',
     signs: ['Repeat sewer blockages near established planting', 'Gurgling or slow fixtures that briefly improve after clearing', 'Root material found during previous drain work', 'A camera inspection showing roots at a joint'],
     causes: 'Roots can enter drainage through an existing crack, loose connection or defective joint. Once inside, growth catches paper and other material. A nearby tree does not prove the cause: inspection is needed to establish what is inside the pipe and where the entry occurs.',
     approach: 'We use the symptoms and available access to plan clearing, then assess the line with CCTV where suitable. Root-cutting or jetting techniques can restore capacity. If an opening remains, we explain whether targeted replacement, suitable relining or a planned maintenance approach is practical for the actual condition.',
@@ -67,7 +67,7 @@ export const services: Service[] = [
   {
     slug: 'blocked-stormwater-drains', name: 'Blocked stormwater drains', short: 'Investigate pooling when rain arrives.',
     intro: 'Water ponding at a grate, driveway or yard can signal an obstructed stormwater line, an outlet problem or a drainage design issue. We assess the pathway before choosing the fix.',
-    image: 'bedded-pipe', alt: 'Drainage pipe laid in prepared bedding during a repair',
+    image: 'stormwater-pit', alt: 'New stormwater pit connected to drainage pipes in prepared bedding',
     signs: ['Water collecting above an external grate', 'Pits filling during rainfall', 'Downpipe-connected drains overflowing', 'Silt or leaf litter visible at accessible drainage points'],
     causes: 'Leaves, sediment and roots can obstruct stormwater lines. A damaged pipe, restricted discharge point or insufficient drainage capacity can produce similar surface pooling. The fact that a problem appears in heavy rain does not establish whether cleaning alone will resolve it.',
     approach: 'We discuss when the pooling happens, inspect safe accessible points and identify the likely route to the outlet. Suitable lines can be cleaned and inspected with CCTV. If the issue is a damaged section, the discharge arrangement or inadequate capacity, we explain the further work needed rather than promising jetting will solve every rain event.',
@@ -115,7 +115,7 @@ export const services: Service[] = [
   {
     slug: 'drain-repairs-excavation', name: 'Drain repairs & excavation', short: 'Replace what clearing cannot fix.',
     intro: 'A broken or collapsed drain needs a repair suited to the defect. We investigate the location, discuss access and reinstatement, and replace agreed sections with appropriate pipework and fittings.',
-    image: 'pipe-repair', alt: 'Replacement drainage pipe and junctions exposed before backfilling',
+    image: 'driveway-excavation', alt: 'Antons plumber working on exposed drainage beside an excavator and hose reel',
     signs: ['A camera revealing a broken or displaced section', 'A blockage that cannot be cleared through the line', 'A known defect unsuitable for relining', 'Persistent drainage problems linked to damaged connections'],
     causes: 'Movement, ageing connections and previous disturbance can leave a line misaligned or broken. Debris then collects at the defect. More cleaning cannot restore the missing pipe wall or correct a significant alignment problem.',
     approach: 'We establish the repair area as far as access and inspection allow, discuss nearby services and agree the excavation and reinstatement scope. The damaged section is exposed and replaced with compatible drainage components. The connection, support and flow are checked before the agreed backfilling and surface work.',

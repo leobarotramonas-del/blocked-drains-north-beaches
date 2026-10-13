@@ -1,5 +1,10 @@
 ---
+import media from '../../docs/media-provenance.json';
 interface Props { name: string; alt: string; eager?: boolean; class?: string; sizes?: string; }
 const { name, alt, eager = false, class: className, sizes = '(max-width: 760px) 100vw, 50vw' } = Astro.props;
+const variants = media.filter(image => image.photoId === name);
+const uniqueWidths = [...new Map(variants.map(image => [image.width, image])).values()];
+const fallback = variants.find(image => image.file.endsWith('-800.webp'));
+if (!fallback) throw new Error(`Unknown photograph: ${name}`);
 ---
-<img class={className} src={`/images/${name}-800.webp`} srcset={[480,800,1200].map(w => `/images/${name}-${w}.webp ${w}w`).join(', ')} sizes={sizes} alt={alt} width="1200" height="1600" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" />
+<img class={className} data-photo-id={name} src={fallback.file.replace('public','')} srcset={uniqueWidths.map(image => `${image.file.replace('public','')} ${image.width}w`).join(', ')} sizes={sizes} alt={alt} width={fallback.width} height={fallback.height} loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" />

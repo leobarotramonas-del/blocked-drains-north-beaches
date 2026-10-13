@@ -20,7 +20,17 @@ for(const file of htmlFiles){
     const candidates=[path.join(root,target),path.join(root,target,'index.html')];
     if(!(await Promise.all(candidates.map(p=>fs.stat(p).then(s=>s.isFile()).catch(()=>false)))).some(Boolean))errors.push(`${label}: missing ${target}`);
   }
-  for(const match of html.matchAll(/<img\b[^>]*>/g)){if(!/\balt=/.test(match[0])||!/\bwidth=/.test(match[0])||!/\bheight=/.test(match[0]))errors.push(`${label}: image missing alt/dimensions`);}
+  const pagePhotos = new Set();
+  // Count rendered images and video posters, not responsive sources or social metadata.
+  for(const match of html.matchAll(/<(?:img|video)\b[^>]*>/g)){
+    const tag=match[0];
+    if(tag.startsWith('<img')&&(!/\balt=/.test(tag)||!/\bwidth=/.test(tag)||!/\bheight=/.test(tag)))errors.push(`${label}: image missing alt/dimensions`);
+    const source=tag.match(/\b(?:src|poster)="([^"]+)"/)?.[1];
+    if(!source)continue;
+    const photo=source.split(/[?#]/)[0].replace(/-(480|800|1200)\.webp$/,'.webp');
+    if(pagePhotos.has(photo))errors.push(`${label}: repeated photograph ${photo}`);
+    pagePhotos.add(photo);
+  }
 }
 const sitemap=await fs.readFile(path.join(root,'sitemap.xml'),'utf8');
 const routes=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>new URL(m[1]).pathname);

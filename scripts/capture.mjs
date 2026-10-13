@@ -7,7 +7,7 @@ const results=[];const interactions=[];
 for(const [name,width,height] of [['desktop',1440,900],['mobile',390,844]]){
   const page=await browser.newPage({viewport:{width,height},deviceScaleFactor:1});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
-  for(const [route,label] of [['/','home'],['/services/cctv-drain-inspections','service'],['/service-areas/manly','area'],['/service-areas','coverage'],['/our-work','work'],['/contact','contact']]){
+  for(const [route,label] of [['/','home'],['/services','services'],['/services/cctv-drain-inspections','service'],['/service-areas/manly','area'],['/service-areas','coverage'],['/our-work','work'],['/contact','contact']]){
     const response=await page.goto(`http://127.0.0.1:4335${route}`,{waitUntil:'networkidle'});
     await page.emulateMedia({reducedMotion:'reduce'});
     await page.evaluate(async()=>{for(let y=0;y<document.documentElement.scrollHeight;y+=700){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,25));}window.scrollTo(0,0);await document.fonts.ready;});

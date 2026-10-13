@@ -1,236 +1,602 @@
 [
   {
     "file": "public/images/roots-480.webp",
+    "photoId": "roots",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.17 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/roots-800.webp",
+    "photoId": "roots",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.17 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/roots-1200.webp",
+    "photoId": "roots",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.17 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/bedded-pipe-480.webp",
+    "photoId": "bedded-pipe",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM (1).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/bedded-pipe-800.webp",
+    "photoId": "bedded-pipe",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM (1).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/bedded-pipe-1200.webp",
+    "photoId": "bedded-pipe",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM (1).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/junction-480.webp",
+    "photoId": "junction",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM (2).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/junction-800.webp",
+    "photoId": "junction",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM (2).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/junction-1200.webp",
+    "photoId": "junction",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM (2).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/pipe-repair-480.webp",
+    "photoId": "pipe-repair",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/pipe-repair-800.webp",
+    "photoId": "pipe-repair",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/pipe-repair-1200.webp",
+    "photoId": "pipe-repair",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-30 at 2.58.18 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/excavation-480.webp",
+    "photoId": "excavation",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-29 at 1.50.06 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/excavation-800.webp",
+    "photoId": "excavation",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-29 at 1.50.06 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/excavation-1200.webp",
+    "photoId": "excavation",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-29 at 1.50.06 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/finished-gully-480.webp",
+    "photoId": "finished-gully",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-29 at 1.49.48 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/finished-gully-800.webp",
+    "photoId": "finished-gully",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-29 at 1.49.48 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/finished-gully-1200.webp",
+    "photoId": "finished-gully",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-29 at 1.49.48 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/jetting-480.webp",
+    "photoId": "jetting",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.20 PM (1).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/jetting-800.webp",
+    "photoId": "jetting",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.20 PM (1).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/jetting-1200.webp",
+    "photoId": "jetting",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.20 PM (1).jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/jetting-work-480.webp",
+    "photoId": "jetting-work",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.20 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/jetting-work-800.webp",
+    "photoId": "jetting-work",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.20 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/jetting-work-1200.webp",
+    "photoId": "jetting-work",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.20 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/camera-480.webp",
+    "photoId": "camera",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.21 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/camera-800.webp",
+    "photoId": "camera",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.21 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/camera-1200.webp",
+    "photoId": "camera",
     "source": "C:\\Users\\User\\Downloads\\WhatsApp Image 2026-09-28 at 3.00.21 PM.jpeg",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/existing-camera-480.webp",
+    "photoId": "existing-camera",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\drain-camera-inspection.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 362
   },
   {
     "file": "public/images/existing-camera-800.webp",
+    "photoId": "existing-camera",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\drain-camera-inspection.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 603
   },
   {
     "file": "public/images/existing-camera-1200.webp",
+    "photoId": "existing-camera",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\drain-camera-inspection.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 963,
+    "height": 726
   },
   {
     "file": "public/images/fixture-repair-480.webp",
+    "photoId": "fixture-repair",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\vanity-plumbing-repair.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 640
   },
   {
     "file": "public/images/fixture-repair-800.webp",
+    "photoId": "fixture-repair",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\vanity-plumbing-repair.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 1067
   },
   {
     "file": "public/images/fixture-repair-1200.webp",
+    "photoId": "fixture-repair",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\vanity-plumbing-repair.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1600
   },
   {
     "file": "public/images/team-excavation-480.webp",
+    "photoId": "team-excavation",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\drainage-excavation-team.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 480
   },
   {
     "file": "public/images/team-excavation-800.webp",
+    "photoId": "team-excavation",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\drainage-excavation-team.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 800
   },
   {
     "file": "public/images/team-excavation-1200.webp",
+    "photoId": "team-excavation",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\drainage-excavation-team.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1200,
+    "height": 1200
   },
   {
     "file": "public/images/technician-480.webp",
+    "photoId": "technician",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\licensed-plumber-portrait.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 480
+    "width": 480,
+    "height": 335
   },
   {
     "file": "public/images/technician-800.webp",
+    "photoId": "technician",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\licensed-plumber-portrait.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 800
+    "width": 800,
+    "height": 558
   },
   {
     "file": "public/images/technician-1200.webp",
+    "photoId": "technician",
     "source": "C:\\Users\\User\\Documents\\ChatGPT\\Antons Plumbing\\the-ryde-plumber\\public\\images\\licensed-plumber-portrait.webp",
     "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
-    "width": 1200
+    "width": 1055,
+    "height": 736
+  },
+  {
+    "file": "public/images/garden-trench-480.webp",
+    "photoId": "garden-trench",
+    "source": "C:\\Users\\User\\Downloads\\673035671_18009072170890210_5473861845988105802_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "file": "public/images/garden-trench-800.webp",
+    "photoId": "garden-trench",
+    "source": "C:\\Users\\User\\Downloads\\673035671_18009072170890210_5473861845988105802_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 590,
+    "height": 590
+  },
+  {
+    "file": "public/images/garden-trench-1200.webp",
+    "photoId": "garden-trench",
+    "source": "C:\\Users\\User\\Downloads\\673035671_18009072170890210_5473861845988105802_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 590,
+    "height": 590
+  },
+  {
+    "file": "public/images/driveway-excavation-480.webp",
+    "photoId": "driveway-excavation",
+    "source": "C:\\Users\\User\\Downloads\\466657502_17949086237890210_4603805838945034407_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "file": "public/images/driveway-excavation-800.webp",
+    "photoId": "driveway-excavation",
+    "source": "C:\\Users\\User\\Downloads\\466657502_17949086237890210_4603805838945034407_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "file": "public/images/driveway-excavation-1200.webp",
+    "photoId": "driveway-excavation",
+    "source": "C:\\Users\\User\\Downloads\\466657502_17949086237890210_4603805838945034407_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "file": "public/images/root-damaged-clay-480.webp",
+    "photoId": "root-damaged-clay",
+    "source": "C:\\Users\\User\\Downloads\\470135570_17953015352890210_6698517990067768465_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "file": "public/images/root-damaged-clay-800.webp",
+    "photoId": "root-damaged-clay",
+    "source": "C:\\Users\\User\\Downloads\\470135570_17953015352890210_6698517990067768465_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "file": "public/images/root-damaged-clay-1200.webp",
+    "photoId": "root-damaged-clay",
+    "source": "C:\\Users\\User\\Downloads\\470135570_17953015352890210_6698517990067768465_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "file": "public/images/sink-trap-480.webp",
+    "photoId": "sink-trap",
+    "source": "C:\\Users\\User\\Downloads\\470220905_17953011116890210_5633357507678628635_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "file": "public/images/sink-trap-800.webp",
+    "photoId": "sink-trap",
+    "source": "C:\\Users\\User\\Downloads\\470220905_17953011116890210_5633357507678628635_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "file": "public/images/sink-trap-1200.webp",
+    "photoId": "sink-trap",
+    "source": "C:\\Users\\User\\Downloads\\470220905_17953011116890210_5633357507678628635_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "file": "public/images/stormwater-pit-480.webp",
+    "photoId": "stormwater-pit",
+    "source": "C:\\Users\\User\\Downloads\\499315329_17970884063890210_7672988237699431307_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 600
+  },
+  {
+    "file": "public/images/stormwater-pit-800.webp",
+    "photoId": "stormwater-pit",
+    "source": "C:\\Users\\User\\Downloads\\499315329_17970884063890210_7672988237699431307_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 1000
+  },
+  {
+    "file": "public/images/stormwater-pit-1200.webp",
+    "photoId": "stormwater-pit",
+    "source": "C:\\Users\\User\\Downloads\\499315329_17970884063890210_7672988237699431307_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 1500
+  },
+  {
+    "file": "public/images/stormwater-installation-480.webp",
+    "photoId": "stormwater-installation",
+    "source": "C:\\Users\\User\\Downloads\\499278611_17970884054890210_8837251285144614530_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 600
+  },
+  {
+    "file": "public/images/stormwater-installation-800.webp",
+    "photoId": "stormwater-installation",
+    "source": "C:\\Users\\User\\Downloads\\499278611_17970884054890210_8837251285144614530_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 1000
+  },
+  {
+    "file": "public/images/stormwater-installation-1200.webp",
+    "photoId": "stormwater-installation",
+    "source": "C:\\Users\\User\\Downloads\\499278611_17970884054890210_8837251285144614530_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 1500
+  },
+  {
+    "file": "public/images/cctv-root-findings-480.webp",
+    "photoId": "cctv-root-findings",
+    "source": "C:\\Users\\User\\Downloads\\471115579_17953770359890210_3845610370971841272_n (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "file": "public/images/cctv-root-findings-800.webp",
+    "photoId": "cctv-root-findings",
+    "source": "C:\\Users\\User\\Downloads\\471115579_17953770359890210_3845610370971841272_n (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "file": "public/images/cctv-root-findings-1200.webp",
+    "photoId": "cctv-root-findings",
+    "source": "C:\\Users\\User\\Downloads\\471115579_17953770359890210_3845610370971841272_n (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1044,
+    "height": 1044
+  },
+  {
+    "file": "public/images/silted-pit-480.webp",
+    "photoId": "silted-pit",
+    "source": "C:\\Users\\User\\Downloads\\602384125_17994605870890210_210315647804808933_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "file": "public/images/silted-pit-800.webp",
+    "photoId": "silted-pit",
+    "source": "C:\\Users\\User\\Downloads\\602384125_17994605870890210_210315647804808933_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "file": "public/images/silted-pit-1200.webp",
+    "photoId": "silted-pit",
+    "source": "C:\\Users\\User\\Downloads\\602384125_17994605870890210_210315647804808933_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "file": "public/images/pit-clearing-480.webp",
+    "photoId": "pit-clearing",
+    "source": "C:\\Users\\User\\Downloads\\601933453_17994605852890210_8226165906480334367_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "file": "public/images/pit-clearing-800.webp",
+    "photoId": "pit-clearing",
+    "source": "C:\\Users\\User\\Downloads\\601933453_17994605852890210_8226165906480334367_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "file": "public/images/pit-clearing-1200.webp",
+    "photoId": "pit-clearing",
+    "source": "C:\\Users\\User\\Downloads\\601933453_17994605852890210_8226165906480334367_n.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "file": "public/images/team-portrait-480.webp",
+    "photoId": "team-portrait",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-071.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 640
+  },
+  {
+    "file": "public/images/team-portrait-800.webp",
+    "photoId": "team-portrait",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-071.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 1066
+  },
+  {
+    "file": "public/images/team-portrait-1200.webp",
+    "photoId": "team-portrait",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-071.jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 1599
+  },
+  {
+    "file": "public/images/stocked-truck-480.webp",
+    "photoId": "stocked-truck",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-054 (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 270
+  },
+  {
+    "file": "public/images/stocked-truck-800.webp",
+    "photoId": "stocked-truck",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-054 (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 450
+  },
+  {
+    "file": "public/images/stocked-truck-1200.webp",
+    "photoId": "stocked-truck",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-054 (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 676
+  },
+  {
+    "file": "public/images/drain-inspection-action-480.webp",
+    "photoId": "drain-inspection-action",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-039 (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 480,
+    "height": 270
+  },
+  {
+    "file": "public/images/drain-inspection-action-800.webp",
+    "photoId": "drain-inspection-action",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-039 (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 800,
+    "height": 450
+  },
+  {
+    "file": "public/images/drain-inspection-action-1200.webp",
+    "photoId": "drain-inspection-action",
+    "source": "C:\\Users\\User\\Downloads\\Antons Plumbing-039 (1).jpg",
+    "origin": "User-supplied real Antons job photography; location unverified unless explicitly stated.",
+    "width": 1200,
+    "height": 676
   }
 ]

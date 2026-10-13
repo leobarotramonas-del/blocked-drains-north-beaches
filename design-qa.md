@@ -1,5 +1,17 @@
 # Design and build QA
 
+## 13 October 2026 — per-page photo cleanup
+
+- Replaced all six repeated-photo placements on the homepage and services directory, and replaced the near-identical second jetting gallery shot.
+- Added twelve distinct supplied photos as 36 responsive WebP assets; reused the existing vanity photograph instead of importing a duplicate. Added the root-cause video to the library without a new page player.
+- Photo component now uses actual image dimensions and non-duplicated responsive width descriptors. Original files are never enlarged.
+- The new duplicate-photo build guard failed against the previous output with six findings, then passed on all 70 rebuilt pages. It checks rendered image sources and video posters, normalising responsive sizes; it is not a perceptual-similarity detector.
+- Astro check: zero errors, warnings or hints. Build and local-reference/schema/sitemap checks passed.
+- Fourteen desktop/mobile browser checks passed, including the service directory: no broken images, horizontal overflow, script errors or premature video downloads. Reviewed service directory, homepage and gallery captures for image relevance and cropping.
+- Existing design and factual copy preserved under the Impeccable refinement guidance. No production deployment or DNS changes made.
+
+## Original build evidence
+
 12 October 2026. Separate project; no publishing or DNS changes performed.
 
 ## Completed automated checks
