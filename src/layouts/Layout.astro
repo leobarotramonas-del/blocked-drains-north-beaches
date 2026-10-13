@@ -1,0 +1,61 @@
+---
+import '@fontsource/barlow/latin-400.css';
+import '@fontsource/barlow/latin-600.css';
+import '@fontsource/barlow/latin-700.css';
+import '@fontsource/saira-extra-condensed/latin-700.css';
+import displayFont from '@fontsource/saira-extra-condensed/files/saira-extra-condensed-latin-700-normal.woff2?url';
+import bodyFont from '@fontsource/barlow/files/barlow-latin-400-normal.woff2?url';
+import '../styles/global.css';
+import { site } from '../data/site';
+import { areas } from '../data/areas';
+interface Props { title: string; description: string; crumbs?: { name: string; href: string }[]; schema?: Record<string, unknown>[]; noindex?: boolean }
+const { title, description, crumbs = [], schema = [], noindex = false } = Astro.props;
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+const canonical = new URL(pathname, site.url).href;
+const indexable = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING === 'true' && !noindex;
+const analytics = import.meta.env.PROD && /^G-[A-Z0-9]+$/.test(import.meta.env.PUBLIC_GA_ID || '') ? import.meta.env.PUBLIC_GA_ID : '';
+const nav = [['Services','/services'],['Service areas','/service-areas'],['Our work','/our-work'],['Drain advice','/drain-advice'],['About','/about']];
+const structured = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'Plumber', '@id': `${site.url}/#business`, name: site.name, legalName: site.operator, url: site.url, telephone: '+61493824176', image: `${site.url}/images/roots-1200.webp`, areaServed: areas.map(a => ({ '@type': 'Place', name: `${a.name}, NSW` })), hasCredential: { '@type': 'EducationalOccupationalCredential', name: `NSW contractor licence ${site.licence}`, credentialCategory: 'Contractor licence' }, openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '00:00', closes: '23:59' }] },
+  { '@type': 'WebSite', '@id': `${site.url}/#website`, name: site.name, url: site.url, publisher: { '@id': `${site.url}/#business` }, inLanguage: 'en-AU' },
+  { '@type': 'WebPage', '@id': `${canonical}#page`, url: canonical, name: title, description, isPartOf: { '@id': `${site.url}/#website` }, about: { '@id': `${site.url}/#business` }, inLanguage: 'en-AU' },
+  ...(crumbs.length ? [{ '@type': 'BreadcrumbList', itemListElement: [{ name: 'Home', href: '/' }, ...crumbs].map((c,i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, site.url).href })) }] : []),
+  ...schema,
+] };
+---
+<!doctype html>
+<html lang="en-AU"><head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title><meta name="description" content={description} />
+  <meta name="robots" content={indexable ? 'index,follow,max-image-preview:large' : 'noindex,follow'} />
+  <meta name="theme-color" content="#081939" />
+  {!noindex && <link rel="canonical" href={canonical} />}
+  <link rel="preload" href={displayFont} as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href={bodyFont} as="font" type="font/woff2" crossorigin />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <meta property="og:type" content="website" /><meta property="og:locale" content="en_AU" />
+  <meta property="og:title" content={title} /><meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} /><meta property="og:site_name" content={site.name} />
+  <meta property="og:image" content={`${site.url}/images/roots-1200.webp`} />
+  <meta property="og:image:alt" content="Antons team member with a root mass removed during drainage work" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g, '\\u003c')} />
+  {analytics && <><script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}></script><script is:inline define:vars={{ analytics }}>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config',analytics);document.addEventListener('click',e=>{if(e.target.closest('a[href^="tel:"]'))gtag('event','phone_call_click',{page_location:location.href})});</script></>}
+</head><body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="utility"><div class="wrap"><span>Northern Beaches drain specialists</span><span>NSW licence {site.licence}<span class="utility-hours"> · Urgent calls 24/7</span></span></div></div>
+  <header><div class="wrap header-inner">
+    <a class="brand" href="/" aria-label={`${site.name} home`}><strong>ANTONS<span class="brand-mark" aria-hidden="true">/</span></strong><span>BLOCKED DRAINS<small>NORTH BEACHES</small></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">{nav.map(([name,href]) => <a href={href} aria-current={pathname.startsWith(href) ? 'page' : undefined}>{name}</a>)}</nav>
+    <a class="header-call" href={site.tel}><span>Speak to the team</span><strong>{site.phone}</strong></a>
+    <details class="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">{nav.map(([name,href]) => <a href={href}>{name}</a>)}<a href="/contact">Contact</a></nav></details>
+  </div></header>
+  <main id="main">{crumbs.length > 0 && <nav class="wrap breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a>{crumbs.map((c,i) => <><span aria-hidden="true">/</span>{i === crumbs.length-1 ? <span aria-current="page">{c.name}</span> : <a href={c.href}>{c.name}</a>}</>)}</nav>}<slot /></main>
+  <footer><div class="wrap footer-top"><div><a class="brand" href="/"><strong>ANTONS<span class="brand-mark" aria-hidden="true">/</span></strong><span>BLOCKED DRAINS<small>NORTH BEACHES</small></span></a><p>Clear advice. Capable hands.<br />Drainage help across the Northern Beaches.</p><a class="footer-phone" href={site.tel}>{site.phone}</a></div><div><h2>Get help</h2><a href="/services/emergency-blocked-drains">Urgent drain help</a><a href="/services">All drain services</a><a href="/service-areas">Find your suburb</a><a href="/contact">Contact the team</a></div><div><h2>Know your options</h2><a href="/our-work">Real drainage work</a><a href="/drain-advice">Drain advice</a><a href="/about">About Antons</a><a href="/services/pipe-relining">Relining & repair options</a></div></div><div class="wrap footer-bottom"><p>{site.name} is operated by {site.operator}. NSW contractor licence {site.licence}.<br />A mobile service; availability and access are confirmed for your address.</p><div><a href="/privacy">Privacy</a><a href="/terms">Service terms</a><span>© {new Date().getFullYear()} Antons</span></div></div></footer>
+  <a class="mobile-call" href={site.tel}><span>Blocked drain? Call the team</span><strong>{site.phone}</strong></a>
+  <script>
+    const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu');
+    document.addEventListener('keydown', e => { if(e.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary')?.focus(); } });
+    document.addEventListener('click', e => { if(menu?.open && e.target instanceof Node && !menu.contains(e.target)) menu.open = false; });
+  </script>
+</body></html>

@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T00:00:00Z",
+  "title": "Design System: Antons Blocked Drains North Beaches",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "neutral",
+        "displayName": "Deep navy",
+        "tonalRamp": [
+          "oklch(15% 0.08 264)",
+          "oklch(26% 0.08 264)",
+          "oklch(38% 0.08 264)",
+          "oklch(49% 0.08 264)",
+          "oklch(61% 0.08 264)",
+          "oklch(72% 0.08 264)",
+          "oklch(84% 0.08 264)",
+          "oklch(95% 0.08 264)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Service blue",
+        "tonalRamp": [
+          "oklch(15% 0.22 260)",
+          "oklch(26% 0.22 260)",
+          "oklch(38% 0.22 260)",
+          "oklch(49% 0.22 260)",
+          "oklch(61% 0.22 260)",
+          "oklch(72% 0.22 260)",
+          "oklch(84% 0.22 260)",
+          "oklch(95% 0.22 260)"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Call red",
+        "tonalRamp": [
+          "oklch(15% 0.21 25)",
+          "oklch(26% 0.21 25)",
+          "oklch(38% 0.21 25)",
+          "oklch(49% 0.21 25)",
+          "oklch(61% 0.21 25)",
+          "oklch(72% 0.21 25)",
+          "oklch(84% 0.21 25)",
+          "oklch(95% 0.21 25)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm paper",
+        "tonalRamp": [
+          "oklch(15% 0.008 90)",
+          "oklch(26% 0.008 90)",
+          "oklch(38% 0.008 90)",
+          "oklch(49% 0.008 90)",
+          "oklch(61% 0.008 90)",
+          "oklch(72% 0.008 90)",
+          "oklch(84% 0.008 90)",
+          "oklch(95% 0.008 90)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Cool rule",
+        "tonalRamp": [
+          "oklch(15% 0.016 255)",
+          "oklch(26% 0.016 255)",
+          "oklch(38% 0.016 255)",
+          "oklch(49% 0.016 255)",
+          "oklch(61% 0.016 255)",
+          "oklch(72% 0.016 255)",
+          "oklch(84% 0.016 255)",
+          "oklch(95% 0.016 255)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate copy",
+        "tonalRamp": [
+          "oklch(15% 0.04 260)",
+          "oklch(26% 0.04 260)",
+          "oklch(38% 0.04 260)",
+          "oklch(49% 0.04 260)",
+          "oklch(61% 0.04 260)",
+          "oklch(72% 0.04 260)",
+          "oklch(84% 0.04 260)",
+          "oklch(95% 0.04 260)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "related": {
+        "role": "neutral",
+        "displayName": "Cool section",
+        "tonalRamp": [
+          "oklch(15% 0.013 255)",
+          "oklch(26% 0.013 255)",
+          "oklch(38% 0.013 255)",
+          "oklch(49% 0.013 255)",
+          "oklch(61% 0.013 255)",
+          "oklch(72% 0.013 255)",
+          "oklch(84% 0.013 255)",
+          "oklch(95% 0.013 255)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Condensed display",
+        "purpose": "Page titles; homepage hero has its own larger uppercase treatment."
+      },
+      "headline": {
+        "displayName": "Section headline",
+        "purpose": "Main content sections."
+      },
+      "title": {
+        "displayName": "Condensed title",
+        "purpose": "Component and subsection headings."
+      },
+      "body": {
+        "displayName": "Barlow body",
+        "purpose": "Readable advice, descriptions and supporting copy."
+      },
+      "label": {
+        "displayName": "Navigation label",
+        "purpose": "Compact semibold desktop navigation."
+      }
+    },
+    "shadows": [
+      {
+        "name": "photo-inset",
+        "value": "0 9px 30px #08193933",
+        "purpose": "Separates the framed CCTV image from the larger photograph."
+      },
+      {
+        "name": "mobile-menu",
+        "value": "0 10px 30px #08193933",
+        "purpose": "Separates the mobile navigation popover."
+      },
+      {
+        "name": "mobile-call",
+        "value": "0 -4px 20px #08193926",
+        "purpose": "Separates the fixed telephone bar from scrolling content."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background .18s ease-out, transform .18s ease-out",
+        "purpose": "Darken button and translateY(-2px) on hover; transitions disabled with reduced motion."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "In-page navigation; auto under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-phone-max",
+        "value": "370px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "compact-desktop-max",
+        "value": "1150px"
+      },
+      {
+        "name": "wide-desktop-min",
+        "value": "1500px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "General action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Square blue action with navy hover.",
+      "html": "<a class=\"ds-button ds-primary\" href=\"#service\">Explore the service</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:14px 24px;color:white;font:700 18px/1.3 var(--body,'Barlow',Arial,sans-serif);text-decoration:none;border:0;border-radius:0;transition:background .18s ease-out,transform .18s ease-out}.ds-button:hover{color:white;transform:translateY(-2px)}.ds-button:focus-visible{outline:3px solid #b85a00;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-primary{background:var(--blue,#0860df)}.ds-primary:hover{background:var(--navy,#081939)}"
+    },
+    {
+      "name": "Telephone action",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "Red call action, minimum height 56px.",
+      "html": "<a class=\"ds-button ds-call\" href=\"tel:+61493824176\">Call 0493 824 176</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:14px 24px;color:white;font:700 18px/1.3 var(--body,'Barlow',Arial,sans-serif);text-decoration:none;border:0;border-radius:0;transition:background .18s ease-out,transform .18s ease-out}.ds-button:hover{color:white;transform:translateY(-2px)}.ds-button:focus-visible{outline:3px solid #b85a00;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-call{background:var(--red,#d81728)}.ds-call:hover{background:#ac1422}"
+    },
+    {
+      "name": "Suburb search",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Visible label and plain rectangular search field.",
+      "html": "<div class=\"ds-filter\"><label for=\"ds-suburb\">Find your suburb</label><input id=\"ds-suburb\" type=\"search\" placeholder=\"For example, Dee Why or Newport\" autocomplete=\"off\"></div>",
+      "css": ".ds-filter{max-width:520px;color:var(--navy,#081939);font:18px/1.6 var(--body,'Barlow',Arial,sans-serif)}.ds-filter label{display:block;font-weight:600;margin-bottom:10px}.ds-filter input{width:100%;border:1px solid #768399;border-radius:0;padding:14px 16px;background:white;color:var(--navy,#081939);caret-color:var(--blue,#0860df);font:inherit}.ds-filter input::placeholder{color:#5a667a}.ds-filter input:focus-visible{outline:3px solid #b85a00;outline-offset:5px}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "description": "Compact text navigation with current-page underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example main navigation\"><a href=\"#services\" aria-current=\"page\">Services</a><a href=\"#areas\">Service areas</a><a href=\"#work\">Our work</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:23px;color:var(--navy,#081939);font:600 15px/1.6 var(--body,'Barlow',Arial,sans-serif)}.ds-nav a{color:inherit;text-decoration:none;padding-block:12px;white-space:nowrap}.ds-nav a[aria-current]{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}.ds-nav a:hover{color:var(--blue,#0860df)}.ds-nav a:focus-visible{outline:3px solid #b85a00;outline-offset:5px}"
+    },
+    {
+      "name": "Advice disclosure",
+      "kind": "custom",
+      "description": "Native expandable advice with blue state marker and dividing rules.",
+      "html": "<details class=\"ds-detail\"><summary>The same drain keeps blocking?</summary><p>Camera inspection after clearing can help explain why the problem returns.</p></details>",
+      "css": ".ds-detail{color:var(--navy,#081939);border-top:1px solid var(--line,#c6ced8);border-bottom:1px solid var(--line,#c6ced8);font-family:var(--body,'Barlow',Arial,sans-serif)}.ds-detail summary{cursor:pointer;list-style:none;position:relative;padding:22px 40px 22px 0;font-size:21px;font-weight:600;line-height:1.35}.ds-detail summary::-webkit-details-marker{display:none}.ds-detail summary::after{content:'+';position:absolute;right:8px;top:20px;font-size:25px;color:var(--blue,#0860df)}.ds-detail[open]>summary::after{content:'−'}.ds-detail p{margin:0;padding:0 40px 24px 0;color:var(--muted,#48556a);font-size:17px;line-height:1.6}.ds-detail summary:focus-visible{outline:3px solid #b85a00;outline-offset:5px}"
+    },
+    {
+      "name": "Service index row",
+      "kind": "custom",
+      "description": "Flat service link with a condensed title and secondary action label.",
+      "html": "<a class=\"ds-service\" href=\"#service\"><strong>Emergency blocked drains</strong><span>View service</span></a>",
+      "css": ".ds-service{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line,#c6ced8);padding-block:19px;color:var(--navy,#081939);text-decoration:none}.ds-service strong{font-family:var(--display,'Saira Extra Condensed','Arial Narrow',sans-serif);font-size:27px}.ds-service span{font:14px/1.6 var(--body,'Barlow',Arial,sans-serif);color:var(--blue,#0860df)}.ds-service:hover{color:var(--blue,#0860df)}.ds-service:focus-visible{outline:3px solid #b85a00;outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Visible workmanship",
+    "overview": "A direct, capable trade-service identity carried forward from the supplied Ryde site: condensed headlines, generous real photography, warm paper, navy foundations and vivid blue wayfinding. Red marks the phone action. Space and strong type make practical advice easy to scan.",
+    "keyCharacteristics": [
+      "Condensed display type with open, readable body copy.",
+      "Square controls and flat, rule-separated content.",
+      "Actual team, equipment and drainage photography.",
+      "Prominent telephone actions across desktop and mobile."
+    ],
+    "rules": [
+      {
+        "name": "The Call Color Rule",
+        "body": "Red belongs to telephone actions; informational actions use blue or underlined text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Heading Contrast Rule",
+        "body": "Reserve all-uppercase treatment for the homepage hero and brand; ordinary headings retain natural sentence casing.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do preserve the navy, blue, paper and red family identity.",
+      "Do use real supplied work imagery, descriptive alt text and accurate captions.",
+      "Do keep telephone actions prominent and explain booking availability in plain language.",
+      "Do preserve keyboard access, visible focus and reduced-motion support."
+    ],
+    "donts": [
+      "Don't turn service tiles into rounded, shadowed dashboard cards.",
+      "Don't invent job locations, review metrics or guarantees to decorate the interface.",
+      "Don't apply the hero's uppercase treatment to every heading.",
+      "Don't introduce decorative motion or autoplay media."
+    ]
+  }
+}
+

@@ -1,0 +1,5 @@
+{
+  "name": "antons-blocked-drains-northern-beaches",
+  "compatibility_date": "2026-10-12",
+  "assets": { "directory": "./dist", "html_handling": "drop-trailing-slash", "not_found_handling": "404-page" }
+}
