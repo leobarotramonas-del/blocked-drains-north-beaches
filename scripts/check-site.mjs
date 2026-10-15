@@ -12,6 +12,10 @@ for(const file of htmlFiles){
   const description=html.match(/<meta name="description" content="([^"]*)"/)?.[1];
   if(!title||titles.has(title))errors.push(`${label}: missing/duplicate title`); titles.add(title);
   if(!description||descriptions.has(description))errors.push(`${label}: missing/duplicate description`); descriptions.add(description);
+  if(title && decodeHtml(title).length > 70)errors.push(`${label}: title exceeds 70 characters`);
+  if(!label.includes('404') && description && (decodeHtml(description).length < 100 || decodeHtml(description).length > 160))errors.push(`${label}: description outside 100–160 characters`);
+  if(label.includes('404') && !html.includes('content="noindex,follow"'))errors.push(`${label}: 404 must remain noindex`);
+  if(process.env.PUBLIC_ALLOW_INDEXING !== 'false' && !label.includes('404') && !html.includes('content="index,follow,max-image-preview:large"'))errors.push(`${label}: public page is not indexable`);
   if((html.match(/<h1(?:\s|>)/g)||[]).length!==1)errors.push(`${label}: expected one H1`);
   if(!label.includes('404')&&!html.includes('rel="canonical" href="https://blockeddrainsnorthenbeaches.com.au'))errors.push(`${label}: canonical missing/wrong`);
   if(!html.includes('tel:+61493824176'))errors.push(`${label}: phone missing`);
@@ -38,7 +42,7 @@ for(const file of htmlFiles){
     if(tag.startsWith('<img')&&(!/\balt=/.test(tag)||!/\bwidth=/.test(tag)||!/\bheight=/.test(tag)))errors.push(`${label}: image missing alt/dimensions`);
     const source=tag.match(/\b(?:src|poster)="([^"]+)"/)?.[1];
     if(!source)continue;
-    const photo=source.split(/[?#]/)[0].replace(/-(480|800|1200)\.webp$/,'.webp');
+    const photo=tag.match(/data-photo-id="([^"]+)"/)?.[1] || source.split(/[?#]/)[0].replace(/-(480|800|1200)\.webp$/,'.webp');
     if(pagePhotos.has(photo))errors.push(`${label}: repeated photograph ${photo}`);
     pagePhotos.add(photo);
   }

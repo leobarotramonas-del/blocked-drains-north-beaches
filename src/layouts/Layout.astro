@@ -15,7 +15,8 @@ const { title, description, crumbs = [], schema = [], noindex = false } = Astro.
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
 const pageFaqs = faqsForPage(pathname);
 const canonical = new URL(pathname, site.url).href;
-const indexable = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING === 'true' && !noindex;
+// Production is public unless explicitly disabled for a staging build.
+const indexable = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING !== 'false' && !noindex;
 const analytics = import.meta.env.PROD && /^G-[A-Z0-9]+$/.test(import.meta.env.PUBLIC_GA_ID || '') ? import.meta.env.PUBLIC_GA_ID : '';
 const nav = [['Services','/services'],['Service areas','/service-areas'],['Our work','/our-work'],['Drain advice','/drain-advice'],['About','/about']];
 const structured = { '@context': 'https://schema.org', '@graph': [

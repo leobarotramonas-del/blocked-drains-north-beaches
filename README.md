@@ -18,7 +18,7 @@ Use Node 24 LTS and `npm ci`, then `npm run dev`. Open http://127.0.0.1:4335. `n
 
 Cloudflare Worker `blocked-drains-north-beaches` is connected to this GitHub repository with production branch `main`, repository root `/`, build command `npm run build` and deploy command `npx wrangler deploy`. The Worker is attached to `blockeddrainsnorthenbeaches.com.au`. Keep the Worker name in `wrangler.jsonc` aligned with the connected project. Check Cloudflare's build history after pushing; a GitHub commit alone is not proof of a successful deployment.
 
-Set `PUBLIC_ALLOW_INDEXING=true` in the Cloudflare production build variables for an approved indexable launch; the default and preview builds output `noindex,follow`. Robots permits crawling so search engines can read that directive. Development builds are always noindex.
+Production builds are indexable by default. Set `PUBLIC_ALLOW_INDEXING=false` for staging builds only; remove any stale false value from production build variables. Development and 404 pages remain noindex. The workers.dev hostname also receives a noindex response header. Robots permits crawling and links to the sitemap.
 
 Cloudflare Workers static-assets configuration is provided in `wrangler.jsonc`. Build with `npm ci && npm run build`; output directory is `dist`. The root path and all sitemap URLs use the supplied domain. Configure the hosting platform's www-to-apex and HTTP-to-HTTPS redirects for the chosen domain. Do not create redirects from the existing Ryde site.
 
@@ -26,7 +26,7 @@ If analytics is wanted, set a dedicated `PUBLIC_GA_ID`. It defaults to empty and
 
 ## Media
 
-`npm run media` regenerates the responsive WebP variants from the supplied Downloads and Ryde sources. `scripts/prepare-video.mjs` regenerates the two 540px H.264 videos using the existing local FFmpeg executable. Those scripts are development utilities tied to the supplied source locations; deployed files are entirely self-contained in `public`.
+`npm run media` regenerates the original responsive WebP variants from the supplied Downloads and Ryde sources. Run `node scripts/optimize-images.mjs` afterwards to generate content-hashed AVIF/WebP delivery variants at 200, 320, 480, 800 and 1200 pixels and their provenance manifest. Optimized images receive a one-year immutable cache lifetime; changed bytes produce new URLs. `scripts/prepare-video.mjs` regenerates the two 540px H.264 videos using the existing local FFmpeg executable. Those scripts are development utilities tied to the supplied source locations; deployed files are entirely self-contained in `public`.
 
 All nine uploaded photographs are used. Four relevant Ryde assets are reused, along with its favicon. Source paths are recorded in `docs/media-provenance.json`; image sidecars preserve provenance. No original media is overwritten. Videos have native controls, embedded captions from their original edits, `preload="none"`, local posters and no autoplay. They are labelled as Kurrajong footage, not Northern Beaches job records.
 
