@@ -1,0 +1,24 @@
+import fs from 'node:fs/promises';
+const origin = 'https://blockeddrainsnorthenbeaches.com.au';
+const get = (url, options={}) => fetch(url, {signal:AbortSignal.timeout(30000), ...options});
+const sitemap = await (await get(`${origin}/sitemap.xml`)).text();
+const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);
+const failures=[];
+for(let i=0;i<urls.length;i+=4) await Promise.all(urls.slice(i,i+4).map(async url=>{
+ const response=await get(url); const html=await response.text();
+ if(response.status!==200) failures.push(`${url}: HTTP ${response.status}`);
+ if(!html.includes('content="index,follow,max-image-preview:large"')) failures.push(`${url}: not indexable`);
+ if(response.headers.get('x-robots-tag')?.includes('noindex')) failures.push(`${url}: noindex header`);
+ if(/static.cloudflareinsights.com\/beacon/.test(html)) failures.push(`${url}: analytics beacon still injected`);
+}));
+const www=await get('https://www.blockeddrainsnorthenbeaches.com.au/robots.txt',{redirect:'manual'});
+if(www.status!==301 || www.headers.get('location')!==`${origin}/robots.txt`) failures.push('www robots redirect failed');
+const robots=await get(`${origin}/robots.txt`);
+if(robots.status!==200 || !(await robots.text()).includes(`${origin}/sitemap.xml`))failures.push('robots missing sitemap');
+const manifest=JSON.parse(await fs.readFile('docs/optimized-media.json','utf8'));
+const asset=manifest.find(p=>p.photoId==='roots' && p.width===800 && p.file.endsWith('.avif'));
+const image=await get(origin+asset.file.replace('public',''),{method:'HEAD'});
+const cache=image.headers.get('cache-control');
+if(image.status!==200 || !cache?.includes('31536000') || !cache?.includes('immutable')) failures.push('optimized asset cache failed');
+console.log(JSON.stringify({pages:urls.length,wwwStatus:www.status,imageCache:cache,failures},null,2));
+if(failures.length)process.exitCode=1;
