@@ -22,6 +22,8 @@ Production builds are indexable by default. Set `PUBLIC_ALLOW_INDEXING=false` fo
 
 Cloudflare Workers static-assets configuration is provided in `wrangler.jsonc`. Build with `npm ci && npm run build`; output directory is `dist`. The root path and all sitemap URLs use the supplied domain. Configure the hosting platform's www-to-apex and HTTP-to-HTTPS redirects for the chosen domain. Do not create redirects from the existing Ryde site.
 
+The dedicated `blocked-drains-north-beaches-www` Worker redirects the existing proxied www hostname to HTTPS on the apex, retaining paths and query strings. Deploy it separately with `npx wrangler deploy --config wrangler.redirect.jsonc` when its code or route changes. The main site remains static-only; the redirect Worker does not execute for apex page or asset requests.
+
 If analytics is wanted, set a dedicated `PUBLIC_GA_ID`. It defaults to empty and does not reuse Ryde's measurement ID. Only explicit analytics configuration adds the Google script and phone-click event. No form backend, email address, office location or payment system is invented; booking is by working telephone links.
 
 ## Media

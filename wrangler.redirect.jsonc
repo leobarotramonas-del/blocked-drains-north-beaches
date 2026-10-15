@@ -1,0 +1,7 @@
+{
+  "name": "blocked-drains-north-beaches-www",
+  "main": "workers/www-redirect.mjs",
+  "compatibility_date": "2026-10-12",
+  "workers_dev": false,
+  "routes": [{ "pattern": "www.blockeddrainsnorthenbeaches.com.au/*", "zone_id": "9d7b7910487610b30441b41a051ccd94" }]
+}

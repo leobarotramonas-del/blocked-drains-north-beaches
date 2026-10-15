@@ -2,8 +2,7 @@
   "name": "blocked-drains-north-beaches",
   "compatibility_date": "2026-10-12",
   "routes": [
-    { "pattern": "blockeddrainsnorthenbeaches.com.au", "custom_domain": true },
-    { "pattern": "www.blockeddrainsnorthenbeaches.com.au/*", "zone_id": "9d7b7910487610b30441b41a051ccd94" }
+    { "pattern": "blockeddrainsnorthenbeaches.com.au", "custom_domain": true }
   ],
   "assets": { "directory": "./dist", "html_handling": "drop-trailing-slash", "not_found_handling": "404-page" }
 }
