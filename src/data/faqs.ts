@@ -107,9 +107,9 @@ const terms: Faq[] = [
 
 const pageIntros: Record<string, Faq[]> = {
   '/about': [
-    qa('Which team carries out this drainage service?', 'The Northern Beaches drain service is provided by the Antons team, with capability in inspection, clearing and explaining suitable pipe repairs.'),
+    qa('Which team carries out this drainage service?', 'A licensed plumbing team provides the Northern Beaches drain service, with capability in inspection, clearing and explaining suitable pipe repairs.'),
     qa('Where can I find the contractor licence number?', `The supplied NSW contractor licence number is ${site.licence}. The About page links to Service NSW’s trades licence verification so you can check the current register record.`),
-    qa('Where can I see examples of the team’s work?', 'Visit Our Work for real team photography and job videos. Identified Kurrajong footage is from outside the Northern Beaches; the gallery represents the wider Antons service network.'),
+    qa('Where can I see examples of the team’s work?', 'Visit Our Work for real team photography and job videos. Identified Kurrajong footage is from outside the Northern Beaches; the gallery represents the wider plumbing service network.'),
   ],
   '/contact': [
     qa('How do I contact the drainage team?', `Call ${site.phone}. Explain your Northern Beaches address and symptoms so the team can discuss the available response.`),
@@ -117,8 +117,8 @@ const pageIntros: Record<string, Faq[]> = {
     qa('Can someone else arrange access for my property?', 'Discuss the nominated access contact and who can approve the work when booking. Do not assume attendance is arranged until the details are confirmed.'),
   ],
   '/our-work': [
-    qa('Are these real photographs of Antons work?', 'Yes. The gallery uses supplied photographs of the Antons team, drainage equipment and pipework. The images are not examples of a promised result for every property.'),
-    qa('Were all gallery jobs completed on the Northern Beaches?', 'No. The gallery draws from the wider Antons service network. Kurrajong videos are explicitly identified as work outside the Northern Beaches; unconfirmed photo locations are not presented as local jobs.'),
+    qa('Are these real photographs of the team’s work?', 'Yes. The gallery uses supplied photographs of the plumbing team, drainage equipment and pipework. The images are not examples of a promised result for every property.'),
+    qa('Were all gallery jobs completed on the Northern Beaches?', 'No. The gallery draws from the wider plumbing service network. Kurrajong videos are explicitly identified as work outside the Northern Beaches; unconfirmed photo locations are not presented as local jobs.'),
     qa('Does a photo show which repair my drain needs?', 'No. Photographs demonstrate practical work and equipment. Your pipe condition, access and inspection findings determine a suitable method.'),
     qa('Will the job videos play automatically?', 'No. Use the video controls to start playback. Videos are not downloaded before playback is requested.'),
   ],
@@ -138,7 +138,7 @@ const pageIntros: Record<string, Faq[]> = {
     qa('Which guide should I read for a repeated blockage?', 'Start with Why does the same drain keep blocking? Keep a record of previous clearing and inspection findings to discuss with the plumber.'),
   ],
   '/404': [
-    qa('How can I find a page that has moved?', 'Use the main navigation to browse services, service areas and drain advice, or return to the homepage using the Antons logo.'),
+    qa('How can I find a page that has moved?', 'Use the main navigation to browse services, service areas and drain advice, or return to the homepage using the site logo.'),
     qa('Can I still arrange help if a link is unavailable?', `Yes. Call ${site.phone} and describe the drainage issue. A missing website page does not confirm or cancel a booking.`),
   ],
 };

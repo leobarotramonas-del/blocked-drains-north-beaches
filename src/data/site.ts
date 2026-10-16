@@ -1,7 +1,7 @@
 export const site = {
   name: 'Antons Blocked Drains North Beaches',
   shortName: 'Antons Blocked Drains',
-  operator: 'Antons Enterprises Pty Ltd',
+  operator: 'Antons Plumbing & Gas',
   licence: '210933C',
   phone: '0493 824 176',
   tel: 'tel:+61493824176',

@@ -12,7 +12,7 @@ Use Node 24 LTS and `npm ci`, then `npm run dev`. Open http://127.0.0.1:4335. `n
 - 45 Northern Beaches local pages grouped geographically, with bespoke booking advice and a local FAQ.
 - Four advice guides, about, contact, privacy, service terms, real-work gallery and two Kurrajong videos.
 - One canonical configuration: `https://blockeddrainsnorthenbeaches.com.au` (exact user-supplied spelling). Public brand: `Antons Blocked Drains North Beaches`.
-- Contact: 0493 824 176. NSW contractor licence 210933C. Operator disclosed once in the homepage body and once in the global footer; legalName also appears in structured data.
+- Contact: 0493 824 176. NSW contractor licence 210933C. Antons Plumbing & Gas is named as the service provider in the homepage copy and global footer, and as the alternate business name in structured data.
 
 ## Production handover
 

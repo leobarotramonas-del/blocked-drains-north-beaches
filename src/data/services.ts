@@ -7,7 +7,7 @@ export const services: Service[] = [
   {
     slug: 'emergency-blocked-drains', name: 'Emergency blocked drains', short: 'Overflowing now? Start here.',
     intro: 'A backed-up toilet or sewage overflow needs a clear next step. Call our team for urgent blocked-drain help across the Northern Beaches, with calls welcome 24/7.',
-    image: 'pit-clearing', alt: 'Antons plumber clearing debris from an outdoor drainage pit beside a garage',
+    image: 'pit-clearing', alt: 'Plumber clearing debris from an outdoor drainage pit beside a garage',
     signs: ['Sewage escaping from an outdoor gully', 'A toilet rising when another fixture drains', 'Several fixtures backing up together', 'Wastewater spreading towards rooms or walkways'],
     causes: 'An obstruction downstream can stop several fixtures from draining. Roots, compacted wipes and other debris are possible causes, but similar symptoms can also come from pipe damage or a problem beyond the property connection. The pattern of affected fixtures helps narrow the investigation.',
     approach: 'We begin with the active overflow, the affected fixtures and safe access. After assessing the line, the plumber explains the proposed clearing work. Where suitable, we restore flow with jetting or mechanical equipment, then inspect further if the cause remains uncertain or the fault has returned. Any repair is discussed separately.',
@@ -19,7 +19,7 @@ export const services: Service[] = [
   {
     slug: 'cctv-drain-inspections', name: 'CCTV drain inspections', short: 'See why the blockage returns.',
     intro: 'Understand what is happening inside your drain before committing to a repair. CCTV inspection helps identify visible roots, damaged joints, obstructions and changes in pipe condition.',
-    image: 'drain-inspection-action', alt: 'Antons plumber feeding an inspection line into a drain access point beside a rainwater tank',
+    image: 'drain-inspection-action', alt: 'Plumber feeding an inspection line into a drain access point beside a rainwater tank',
     signs: ['A drain that blocks again after clearing', 'Unexplained slow drainage across several fixtures', 'Suspected roots or a damaged underground section', 'A need to assess an accessible line before repair'],
     causes: 'A camera helps separate material lodged inside a sound pipe from defects in the pipe itself. Tree roots can enter at openings; joints can move; some sections can hold water or trap debris. Surface symptoms alone cannot establish which of these is present.',
     approach: 'We identify a suitable entry point and assess whether the line is clear enough to inspect. If water and debris hide the view, clearing may be needed first. The camera is guided through accessible sections and the visible findings are explained so you can compare maintenance, a targeted repair or relining where appropriate.',
@@ -31,7 +31,7 @@ export const services: Service[] = [
   {
     slug: 'high-pressure-water-jetting', name: 'High-pressure water jetting', short: 'Clear build-up with the right approach.',
     intro: 'Professional drain jetting uses controlled water pressure and selected nozzles to remove suitable obstructions and clean accessible pipework. The pipe and the blockage determine the method.',
-    image: 'jetting', alt: 'Antons drainage technician handling a hose reel beside a stocked service vehicle',
+    image: 'jetting', alt: 'Drainage technician handling a hose reel beside a stocked service vehicle',
     signs: ['Grease or sludge restricting a drain', 'Debris lodged in an external drainage line', 'Root growth obstructing suitable pipework', 'A line that needs cleaning before camera inspection'],
     causes: 'Grease, sediment and fibrous material can reduce the open space in a pipe. A partial clearing may leave material on the walls, allowing another restriction to form. Jetting can address suitable build-up, but the reason it collected still needs consideration.',
     approach: 'The plumber checks the entry point and available information about pipe condition, selects a nozzle and works through the restriction in a controlled manner. Drainage is checked after cleaning. If roots or recurring obstruction suggest a defect, we discuss camera inspection and repair options rather than assuming cleaning is the final answer.',
@@ -91,7 +91,7 @@ export const services: Service[] = [
   {
     slug: 'blocked-sinks-showers', name: 'Blocked sinks & showers', short: 'Sort out slow indoor drains.',
     intro: 'A sink that takes ages to empty or a shower that pools around your feet deserves a cause-based fix. We investigate fixture traps and connected waste lines before recommending wider drainage work.',
-    image: 'fixture-repair', alt: 'Antons plumbing work on pipe connections underneath a bathroom vanity',
+    image: 'fixture-repair', alt: 'Plumber working on pipe connections underneath a bathroom vanity',
     signs: ['Water pooling in a shower or basin', 'A kitchen sink emptying slowly', 'Gurgling from a connected waste pipe', 'An odour or recurring blockage after cleaning the strainer'],
     causes: 'Hair and soap deposits often collect in bathroom wastes; grease and food residue can narrow kitchen lines. If several fixtures share the symptoms, the blockage may be farther downstream. Odours can also involve traps or ventilation rather than an obstruction alone.',
     approach: 'We identify the affected fixture and assess accessible traps and connections. A local obstruction is cleared with an appropriate method; a connected line may need mechanical clearing or further inspection. We check discharge afterwards and discuss defective traps, leaking joints or recurring build-up where found.',
@@ -103,7 +103,7 @@ export const services: Service[] = [
   {
     slug: 'pipe-relining', name: 'Pipe relining', short: 'Explore a repair with less excavation.',
     intro: 'For suitable damaged drainage, relining can repair the inside of the existing pipe with less excavation than full replacement. A clear inspection and a suitable host pipe come first.',
-    image: 'existing-camera', alt: 'Professional drain inspection equipment used by the Antons team',
+    image: 'existing-camera', alt: 'Professional drain inspection equipment at a property',
     signs: ['Roots repeatedly entering an identifiable defect', 'Accessible cracks or leaking joints in a suitable line', 'Pipe repairs beneath surfaces you want to retain', 'A camera assessment recommending a relining option'],
     causes: 'An opening in the pipe can admit roots or allow leakage while the surrounding pipe remains usable. Relining addresses suitable defects from inside. It is considered only after assessing the shape, access and structural condition of the existing line.',
     approach: 'We assess accessible pipework, discuss the repair length and compare relining with excavation where relevant. Suitable lines are cleaned and prepared before a selected resin liner system is installed and cured. Completion checks and any agreed camera record form part of the repair scope. Ask for the specific product and warranty terms in the quotation.',
@@ -115,7 +115,7 @@ export const services: Service[] = [
   {
     slug: 'drain-repairs-excavation', name: 'Drain repairs & excavation', short: 'Replace what clearing cannot fix.',
     intro: 'A broken or collapsed drain needs a repair suited to the defect. We investigate the location, discuss access and reinstatement, and replace agreed sections with appropriate pipework and fittings.',
-    image: 'driveway-excavation', alt: 'Antons plumber working on exposed drainage beside an excavator and hose reel',
+    image: 'driveway-excavation', alt: 'Plumber working on exposed drainage beside an excavator and hose reel',
     signs: ['A camera revealing a broken or displaced section', 'A blockage that cannot be cleared through the line', 'A known defect unsuitable for relining', 'Persistent drainage problems linked to damaged connections'],
     causes: 'Movement, ageing connections and previous disturbance can leave a line misaligned or broken. Debris then collects at the defect. More cleaning cannot restore the missing pipe wall or correct a significant alignment problem.',
     approach: 'We establish the repair area as far as access and inspection allow, discuss nearby services and agree the excavation and reinstatement scope. The damaged section is exposed and replaced with compatible drainage components. The connection, support and flow are checked before the agreed backfilling and surface work.',
@@ -127,7 +127,7 @@ export const services: Service[] = [
   {
     slug: 'strata-commercial-drains', name: 'Strata & commercial drains', short: 'A clear plan for shared drainage.',
     intro: 'Shared blockages affect residents, customers and business operations. We work with the authorised contact to investigate the affected line, agree access and explain the drainage work required.',
-    image: 'team-excavation', alt: 'Antons team working together on an exposed drainage repair',
+    image: 'team-excavation', alt: 'Plumbing team working together on an exposed drainage repair',
     signs: ['Several units reporting slow drainage together', 'A common gully or floor waste backing up', 'Recurring kitchen waste restrictions in a business', 'A need to investigate repeated shared-service faults'],
     causes: 'A blockage in a common line can appear first at a lower fixture. Grease, unsuitable waste, roots or damaged shared pipework can all be involved. Knowing which premises are affected is more useful than assuming the first visible overflow is the fault location.',
     approach: 'We obtain the contact, approval arrangements and access details, then assess the shared or private drainage section. Agreed work can include CCTV, clearing and a repair proposal. We discuss interruptions, safe access and documentation requirements so the people using the building know what to expect.',

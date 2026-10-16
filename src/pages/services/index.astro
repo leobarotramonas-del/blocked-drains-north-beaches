@@ -4,7 +4,7 @@ import Photo from '../../components/Photo.astro';
 import Cta from '../../components/Cta.astro';
 import { services } from '../../data/services';
 ---
-<Layout title="Drain Services Northern Beaches | CCTV, Jetting & Repairs" description="Explore Antons drain services across the Northern Beaches: emergency clearing, CCTV inspections, jetting, root removal, repairs, relining and strata work." crumbs={[{name:'Drain services',href:'/services'}]}>
+<Layout title="Drain Services Northern Beaches | CCTV & Jetting" description="Explore blocked-drain services across the Northern Beaches: emergency clearing, CCTV inspections, jetting, root removal, repairs, relining and strata drainage." crumbs={[{name:'Drain services',href:'/services'}]}>
   <div class="wrap intro-page"><h1>One team.<br /><span class="blue">The right drain solution.</span></h1><p>Clearing, inspection and repair each have a purpose. Explore the service that matches your symptoms, or call and let us help you choose the next step.</p></div>
   <section class="wrap section" style="padding-top:0" aria-label="Drain services"><div class="service-grid">{services.map(s=><a class="service-tile" href={`/services/${s.slug}`}><Photo name={s.image} alt={s.alt} sizes="(max-width:760px) calc((100vw - 54px) / 2), (max-width:1304px) calc((100vw - 120px) / 3), 395px" /><h2 style="font-size:34px">{s.name}</h2><p>{s.short}</p><span class="link-label">Causes, equipment & repair options</span></a>)}</div></section><Cta />
 </Layout>
