@@ -6,6 +6,7 @@ const htmlFiles=(await files(root)).filter(f=>f.endsWith('.html'));
 const errors=[];const titles=new Set();const descriptions=new Set();let links=0;let schemas=0;
 let minimumFaqs=Infinity;
 const decodeHtml=value=>value.replace(/&(?:amp|lt|gt|quot|apos|#39|#x27|#\d+);/g, entity=>({'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'",'&#39;':"'",'&#x27;':"'"}[entity] ?? String.fromCodePoint(Number(entity.slice(2,-1)))));
+const decodeText=value=>decodeHtml(value.replace(/<[^>]*>/g,''));
 for(const file of htmlFiles){
   const html=await fs.readFile(file,'utf8');const label=path.relative(root,file);
   const title=html.match(/<title>(.*?)<\/title>/s)?.[1];
@@ -22,7 +23,7 @@ for(const file of htmlFiles){
   if(/therydeplumber\.com\.au|Plumber Ryde|G-PNR1DE04C2/.test(html))errors.push(`${label}: stale Ryde reference`);
   for(const match of html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)){try{JSON.parse(match[1]);schemas++;}catch{errors.push(`${label}: invalid JSON-LD`);}}
   const faqSections=[...html.matchAll(/<section\b[^>]*\bid="faqs"[^>]*>(.*?)<\/section>/gs)];
-  const visibleFaqs=[...(faqSections[0]?.[1]||'').matchAll(/<details\b[^>]*data-faq[^>]*>\s*<summary>(.*?)<\/summary>\s*<p>(.*?)<\/p>\s*<\/details>/gs)].map(m=>({question:decodeHtml(m[1]),answer:decodeHtml(m[2])}));
+  const visibleFaqs=[...(faqSections[0]?.[1]||'').matchAll(/<details\b[^>]*data-faq[^>]*>\s*<summary>(.*?)<\/summary>\s*<p>(.*?)<\/p>\s*<\/details>/gs)].map(m=>({question:decodeText(m[1]),answer:decodeText(m[2])}));
   minimumFaqs=Math.min(minimumFaqs,visibleFaqs.length);
   if(faqSections.length!==1||visibleFaqs.length<15)errors.push(`${label}: expected one FAQ section with at least 15 answers, found ${visibleFaqs.length}`);
   if(new Set(visibleFaqs.map(f=>f.question.trim().toLowerCase())).size!==visibleFaqs.length)errors.push(`${label}: duplicate FAQ question`);

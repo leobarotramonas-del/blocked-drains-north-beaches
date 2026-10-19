@@ -109,3 +109,19 @@ footer{padding-top:52px}
   .cta{padding-block:42px}
   footer{padding-top:44px}
 }
+
+.google-review-badge{display:flex;align-items:center;width:max-content;gap:13px;margin-bottom:20px;padding:9px 0 10px;border-bottom:2px solid var(--line);line-height:1}
+.google-word{display:flex;font-family:Arial,sans-serif;font-size:27px;font-weight:600;letter-spacing:-1.5px}
+.google-word span:nth-child(1),.google-word span:nth-child(4){color:#4285f4}
+.google-word span:nth-child(2),.google-word span:nth-child(6){color:#ea4335}
+.google-word span:nth-child(3){color:#fbbc05}
+.google-word span:nth-child(5){color:#34a853}
+.review-rating{display:grid;gap:4px;color:var(--navy)}
+.review-rating strong{font-size:13px;line-height:1;font-weight:700;letter-spacing:.01em}
+.review-stars{display:flex;gap:2px}
+.review-stars svg{width:14px;height:14px;fill:#f4b400}
+
+@media(max-width:760px){
+  .google-review-badge{margin-bottom:16px;padding-top:0}
+  .google-word{font-size:24px}
+}
