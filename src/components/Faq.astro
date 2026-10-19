@@ -1,6 +1,7 @@
 ---
 import type { Faq } from '../data/site';
+import { site } from '../data/site';
 interface Props { items: Faq[]; title?: string }
 const { items, title = 'A few answers before you call.' } = Astro.props;
 ---
-<section class="section faq wrap" id="faqs" aria-labelledby="faq-heading"><h2 id="faq-heading">{title}</h2><div>{items.map(item => <details data-faq><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div></section>
+<section class="section faq wrap" id="faqs" aria-labelledby="faq-heading"><h2 id="faq-heading">{title}</h2><div>{items.map(item => <details data-faq><summary>{item.question}</summary><p>{item.answer.split(site.phone).map((part, index, parts) => <>{part}{index < parts.length - 1 && <a class="inline-call" href={site.tel}>{site.phone}</a>}</>)}</p></details>)}</div></section>

@@ -5,7 +5,7 @@ export type Service = {
 };
 export const services: Service[] = [
   {
-    slug: 'emergency-blocked-drains', name: 'Emergency blocked drains', short: 'Overflowing now? Start here.',
+    slug: 'emergency-blocked-drains', name: 'Emergency Blocked Drains', short: 'Overflowing now? Start here.',
     intro: 'A backed-up toilet or sewage overflow needs a clear next step. Call our team for urgent blocked-drain help across the Northern Beaches, with calls welcome 24/7.',
     image: 'pit-clearing', alt: 'Plumber clearing debris from an outdoor drainage pit beside a garage',
     signs: ['Sewage escaping from an outdoor gully', 'A toilet rising when another fixture drains', 'Several fixtures backing up together', 'Wastewater spreading towards rooms or walkways'],
@@ -17,7 +17,7 @@ export const services: Service[] = [
     question: 'Should I keep flushing to see whether it clears?', answer: 'No. Further flushing can add water to an obstructed line and worsen the overflow. Stop using the affected fixtures and call with details of what is backing up.'
   },
   {
-    slug: 'cctv-drain-inspections', name: 'CCTV drain inspections', short: 'See why the blockage returns.',
+    slug: 'cctv-drain-inspections', name: 'CCTV Drain Inspections', short: 'See why the blockage returns.',
     intro: 'Understand what is happening inside your drain before committing to a repair. CCTV inspection helps identify visible roots, damaged joints, obstructions and changes in pipe condition.',
     image: 'drain-inspection-action', alt: 'Plumber feeding an inspection line into a drain access point beside a rainwater tank',
     signs: ['A drain that blocks again after clearing', 'Unexplained slow drainage across several fixtures', 'Suspected roots or a damaged underground section', 'A need to assess an accessible line before repair'],
@@ -29,7 +29,7 @@ export const services: Service[] = [
     question: 'Does every blocked drain need a camera?', answer: 'No. A straightforward fixture obstruction may need a simpler approach. CCTV becomes particularly useful for repeat blockages, suspected pipe damage or planning a more substantial repair.'
   },
   {
-    slug: 'high-pressure-water-jetting', name: 'High-pressure water jetting', short: 'Clear build-up with the right approach.',
+    slug: 'high-pressure-water-jetting', name: 'High-Pressure Water Jetting', short: 'Clear build-up with the right approach.',
     intro: 'Professional drain jetting uses controlled water pressure and selected nozzles to remove suitable obstructions and clean accessible pipework. The pipe and the blockage determine the method.',
     image: 'jetting', alt: 'Drainage technician handling a hose reel beside a stocked service vehicle',
     signs: ['Grease or sludge restricting a drain', 'Debris lodged in an external drainage line', 'Root growth obstructing suitable pipework', 'A line that needs cleaning before camera inspection'],
@@ -41,7 +41,7 @@ export const services: Service[] = [
     question: 'Is drain jetting the same as using a household pressure washer?', answer: 'No. Drain equipment, nozzles and operating methods are chosen for enclosed pipework. Improvised high-pressure cleaning can cause injury or damage and may push material into a less accessible section.'
   },
   {
-    slug: 'tree-root-removal', name: 'Tree roots in drains', short: 'Clear the roots. Understand the entry point.',
+    slug: 'tree-root-removal', name: 'Tree Roots in Drains', short: 'Clear the roots. Understand the entry point.',
     intro: 'A root mass can choke an underground drain long before there is a visible problem above ground. We investigate root intrusion, clear suitable obstructions and explain how to address the damaged entry point.',
     image: 'root-damaged-clay', alt: 'Tree roots visible around a broken terracotta drainage pipe',
     signs: ['Repeat sewer blockages near established planting', 'Gurgling or slow fixtures that briefly improve after clearing', 'Root material found during previous drain work', 'A camera inspection showing roots at a joint'],
@@ -53,7 +53,7 @@ export const services: Service[] = [
     question: 'Will the roots come back after clearing?', answer: 'They can if the pipe still has an entry point. The next step depends on the defect, access and repair options; the camera findings help make that decision.'
   },
   {
-    slug: 'blocked-sewer-drains', name: 'Blocked sewer drains', short: 'Help for multiple fixtures backing up.',
+    slug: 'blocked-sewer-drains', name: 'Blocked Sewer Drains', short: 'Help for multiple fixtures backing up.',
     intro: 'When toilets, showers or outside gullies back up together, the issue may be in a shared section of the sewer drain. We trace the affected line and explain the clearing or repair work it needs.',
     image: 'pipe-repair', alt: 'Exposed replacement drainage pipe and fittings installed beside a house',
     signs: ['Water appearing in a shower when the toilet flushes', 'An outside gully overflowing during household water use', 'Several slow fixtures on the same property', 'Recurring foul drainage from an accessible opening'],
@@ -65,7 +65,7 @@ export const services: Service[] = [
     question: 'Is an overflowing outside gully always my responsibility?', answer: 'Not necessarily. The fault location and the way the property connects to the network matter. A licensed assessment helps distinguish private drainage issues from a Sydney Water network fault.'
   },
   {
-    slug: 'blocked-stormwater-drains', name: 'Blocked stormwater drains', short: 'Investigate pooling when rain arrives.',
+    slug: 'blocked-stormwater-drains', name: 'Blocked Stormwater Drains', short: 'Investigate pooling when rain arrives.',
     intro: 'Water ponding at a grate, driveway or yard can signal an obstructed stormwater line, an outlet problem or a drainage design issue. We assess the pathway before choosing the fix.',
     image: 'stormwater-pit', alt: 'New stormwater pit connected to drainage pipes in prepared bedding',
     signs: ['Water collecting above an external grate', 'Pits filling during rainfall', 'Downpipe-connected drains overflowing', 'Silt or leaf litter visible at accessible drainage points'],
@@ -77,7 +77,7 @@ export const services: Service[] = [
     question: 'Can a blocked stormwater drain cause sewage to overflow?', answer: 'The systems should be separate. Sewage appearing during rain needs assessment because it may involve infiltration, an incorrect connection or a network problem; it should not be treated as ordinary rainwater.'
   },
   {
-    slug: 'blocked-toilets', name: 'Blocked toilets', short: 'Get the bathroom working again.',
+    slug: 'blocked-toilets', name: 'Blocked Toilets', short: 'Get the bathroom working again.',
     intro: 'A rising toilet bowl is stressful, especially when it is the only toilet in the home. We distinguish a local obstruction from a deeper sewer blockage and choose the least disruptive suitable method.',
     image: 'camera', alt: 'Technician inspecting an accessible drain as part of a drainage investigation',
     signs: ['A bowl that rises instead of flushing normally', 'Water that drains away very slowly', 'Gurgling from another fixture when you flush', 'A toilet that repeatedly blocks after normal use'],
@@ -89,7 +89,7 @@ export const services: Service[] = [
     question: 'Is a toilet blockage always a quick fix?', answer: 'An isolated obstruction can be straightforward, but a damaged sewer line or shared blockage requires a different scope. We assess the symptoms and access before describing the work needed.'
   },
   {
-    slug: 'blocked-sinks-showers', name: 'Blocked sinks & showers', short: 'Sort out slow indoor drains.',
+    slug: 'blocked-sinks-showers', name: 'Blocked Sinks & Showers', short: 'Sort out slow indoor drains.',
     intro: 'A sink that takes ages to empty or a shower that pools around your feet deserves a cause-based fix. We investigate fixture traps and connected waste lines before recommending wider drainage work.',
     image: 'fixture-repair', alt: 'Plumber working on pipe connections underneath a bathroom vanity',
     signs: ['Water pooling in a shower or basin', 'A kitchen sink emptying slowly', 'Gurgling from a connected waste pipe', 'An odour or recurring blockage after cleaning the strainer'],
@@ -101,7 +101,7 @@ export const services: Service[] = [
     question: 'Should I use chemical drain cleaner first?', answer: 'We recommend speaking with the team if the cause is unclear, the blockage recurs or multiple fixtures are affected. Tell us exactly what has been used so the plumber can plan safe handling.'
   },
   {
-    slug: 'pipe-relining', name: 'Pipe relining', short: 'Explore a repair with less excavation.',
+    slug: 'pipe-relining', name: 'Pipe Relining', short: 'Explore a repair with less excavation.',
     intro: 'For suitable damaged drainage, relining can repair the inside of the existing pipe with less excavation than full replacement. A clear inspection and a suitable host pipe come first.',
     image: 'existing-camera', alt: 'Professional drain inspection equipment at a property',
     signs: ['Roots repeatedly entering an identifiable defect', 'Accessible cracks or leaking joints in a suitable line', 'Pipe repairs beneath surfaces you want to retain', 'A camera assessment recommending a relining option'],
@@ -113,7 +113,7 @@ export const services: Service[] = [
     question: 'Is relining always cheaper than replacement?', answer: 'No. Length, access, preparation, reinstatement and pipe condition all affect cost. Compare the complete scope and the disruption of each suitable option, rather than assuming one method is always better.'
   },
   {
-    slug: 'drain-repairs-excavation', name: 'Drain repairs & excavation', short: 'Replace what clearing cannot fix.',
+    slug: 'drain-repairs-excavation', name: 'Drain Repairs & Excavation', short: 'Replace what clearing cannot fix.',
     intro: 'A broken or collapsed drain needs a repair suited to the defect. We investigate the location, discuss access and reinstatement, and replace agreed sections with appropriate pipework and fittings.',
     image: 'driveway-excavation', alt: 'Plumber working on exposed drainage beside an excavator and hose reel',
     signs: ['A camera revealing a broken or displaced section', 'A blockage that cannot be cleared through the line', 'A known defect unsuitable for relining', 'Persistent drainage problems linked to damaged connections'],
@@ -125,7 +125,7 @@ export const services: Service[] = [
     question: 'Will my whole yard need to be dug up?', answer: 'Not necessarily. A defined defect can sometimes be repaired through a targeted excavation. Access, depth, other services and the extent of damage determine what needs to be opened.'
   },
   {
-    slug: 'strata-commercial-drains', name: 'Strata & commercial drains', short: 'A clear plan for shared drainage.',
+    slug: 'strata-commercial-drains', name: 'Strata & Commercial Drains', short: 'A clear plan for shared drainage.',
     intro: 'Shared blockages affect residents, customers and business operations. We work with the authorised contact to investigate the affected line, agree access and explain the drainage work required.',
     image: 'team-excavation', alt: 'Plumbing team working together on an exposed drainage repair',
     signs: ['Several units reporting slow drainage together', 'A common gully or floor waste backing up', 'Recurring kitchen waste restrictions in a business', 'A need to investigate repeated shared-service faults'],

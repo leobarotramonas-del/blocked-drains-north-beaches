@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T00:00:00Z",
+  "generatedAt": "2026-10-19T00:00:00Z",
   "title": "Design System: Antons Blocked Drains North Beaches",
   "extensions": {
     "colorMeta": {
@@ -200,7 +200,7 @@
       "name": "Telephone action",
       "kind": "button",
       "refersTo": "button-call",
-      "description": "Red call action, minimum height 56px.",
+      "description": "Red rectangular call action; every visible telephone number uses this treatment, with compact variants for header, footer and inline contexts.",
       "html": "<a class=\"ds-button ds-call\" href=\"tel:+61493824176\">Call 0493 824 176</a>",
       "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:14px 24px;color:white;font:700 18px/1.3 var(--body,'Barlow',Arial,sans-serif);text-decoration:none;border:0;border-radius:0;transition:background .18s ease-out,transform .18s ease-out}.ds-button:hover{color:white;transform:translateY(-2px)}.ds-button:focus-visible{outline:3px solid #b85a00;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-call{background:var(--red,#d81728)}.ds-call:hover{background:#ac1422}"
     },
@@ -230,7 +230,7 @@
       "name": "Service index row",
       "kind": "custom",
       "description": "Flat service link with a condensed title and secondary action label.",
-      "html": "<a class=\"ds-service\" href=\"#service\"><strong>Emergency blocked drains</strong><span>View service</span></a>",
+      "html": "<a class=\"ds-service\" href=\"#service\"><strong>Emergency Blocked Drains</strong><span>View service</span></a>",
       "css": ".ds-service{display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line,#c6ced8);padding-block:19px;color:var(--navy,#081939);text-decoration:none}.ds-service strong{font-family:var(--display,'Saira Extra Condensed','Arial Narrow',sans-serif);font-size:27px}.ds-service span{font:14px/1.6 var(--body,'Barlow',Arial,sans-serif);color:var(--blue,#0860df)}.ds-service:hover{color:var(--blue,#0860df)}.ds-service:focus-visible{outline:3px solid #b85a00;outline-offset:5px}"
     }
   ],
@@ -238,7 +238,7 @@
     "northStar": "Visible workmanship",
     "overview": "A direct, capable trade-service identity carried forward from the supplied Ryde site: condensed headlines, generous real photography, warm paper, navy foundations and vivid blue wayfinding. Red marks the phone action. Space and strong type make practical advice easy to scan.",
     "keyCharacteristics": [
-      "Condensed display type with open, readable body copy.",
+      "Condensed display type with Chicago-style title capitalization and open, readable body copy.",
       "Square controls and flat, rule-separated content.",
       "Actual team, equipment and drainage photography.",
       "Prominent telephone actions across desktop and mobile."
@@ -251,8 +251,13 @@
       },
       {
         "name": "The Heading Contrast Rule",
-        "body": "Reserve all-uppercase treatment for the homepage hero and brand; ordinary headings retain natural sentence casing.",
+        "body": "Reserve all-uppercase treatment for the homepage hero and brand; ordinary headings use Chicago-style title capitalization.",
         "section": "typography"
+      },
+      {
+        "name": "The Bounded Layout Rule",
+        "body": "Keep primary content inside an 1180px frame with 32px desktop and 18px mobile gutters; full-width color fields may extend to the viewport while their content remains bounded.",
+        "section": "layout"
       }
     ],
     "dos": [

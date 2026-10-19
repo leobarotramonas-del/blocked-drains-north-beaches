@@ -18,10 +18,10 @@ export const homeFaqs: Faq[] = [
   { question: 'Do you have an office in every suburb you cover?', answer: 'No. This is a mobile drainage service covering Northern Beaches addresses, with availability confirmed when you call. The suburb pages explain booking and property considerations; they do not represent separate local offices.' },
 ];
 export const steps = [
-  ['Tell us what is happening', 'Share your suburb, affected fixtures and whether there is an active overflow. We discuss urgency, access and availability.'],
-  ['Find the cause', 'We assess the drainage, choose a safe access point and explain the initial work. CCTV may follow clearing when visibility is limited.'],
-  ['Clear or repair appropriately', 'Jetting, mechanical clearing or agreed pipe repairs are selected for what is actually in the line and the condition of the pipe.'],
-  ['Check the result', 'We check drainage flow and explain any remaining defects, maintenance needs or separately quoted repair options.'],
+  ['Tell Us What Is Happening', 'Share your suburb, affected fixtures and whether there is an active overflow. We discuss urgency, access and availability.'],
+  ['Find the Cause', 'We assess the drainage, choose a safe access point and explain the initial work. CCTV may follow clearing when visibility is limited.'],
+  ['Clear or Repair Appropriately', 'Jetting, mechanical clearing or agreed pipe repairs are selected for what is actually in the line and the condition of the pipe.'],
+  ['Check the Result', 'We check drainage flow and explain any remaining defects, maintenance needs or separately quoted repair options.'],
 ];
 export const sources = {
   council: 'https://www.northernbeaches.nsw.gov.au/council/about-northern-beaches-council/wards-and-suburbs',

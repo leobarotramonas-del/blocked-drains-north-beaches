@@ -146,15 +146,15 @@ const pageIntros: Record<string, Faq[]> = {
 export function faqsForPage(pathname: string): { title: string; items: Faq[] } {
   const route = pathname.replace(/\/$/, '') || '/';
   const area = areas.find(a => route === `/service-areas/${a.slug}`);
-  if (area) return { title: `Blocked drain questions for ${area.name}.`, items: areaFaqs(area) };
+  if (area) return { title: `Blocked Drain Questions for ${area.name}`, items: areaFaqs(area) };
   const service = services.find(s => route === `/services/${s.slug}`);
-  if (service) return { title: `Questions about ${service.name.startsWith('CCTV') ? service.name : service.name.toLowerCase()}.`, items: serviceFaqs(service) };
+  if (service) return { title: `Questions about ${service.name}`, items: serviceFaqs(service) };
   const guide = guides.find(g => route === `/drain-advice/${g.slug}`);
   if (guide) {
     const questions = guideQuestions[guide.slug];
-    return { title: 'More answers about this drain issue.', items: finish([...guide.sections.map((section, i) => qa(questions[i], section[1])), ...general.slice(0, 15 - guide.sections.length)]) };
+    return { title: 'More Answers about This Drain Issue', items: finish([...guide.sections.map((section, i) => qa(questions[i], section[1])), ...general.slice(0, 15 - guide.sections.length)]) };
   }
-  if (route === '/privacy') return { title: 'Website privacy questions.', items: finish(privacy) };
-  if (route === '/terms') return { title: 'Booking and service questions.', items: finish(terms) };
-  return { title: 'Your drainage questions, answered.', items: finish([...(pageIntros[route.replace(/\.html$/, '')] || []), ...general.slice(0, 15)]) };
+  if (route === '/privacy') return { title: 'Website Privacy Questions', items: finish(privacy) };
+  if (route === '/terms') return { title: 'Booking and Service Questions', items: finish(terms) };
+  return { title: 'Your Drainage Questions, Answered', items: finish([...(pageIntros[route.replace(/\.html$/, '')] || []), ...general.slice(0, 15)]) };
 }

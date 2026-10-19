@@ -42,7 +42,7 @@ rounded:
 spacing:
   paragraph: "18px"
   action-gap: "24px"
-  section: "clamp(64px, 7vw, 112px)"
+  section: "clamp(46px, 5vw, 72px)"
 components:
   button-primary:
     backgroundColor: "{colors.blue}"
@@ -93,11 +93,11 @@ Self-hosted Saira Extra Condensed 700 supplies headings and the wordmark; self-h
 
 The type ramp is condensed and emphatic above relaxed body copy. General headings use the frontmatter ramp. The homepage hero is a deliberate exception: uppercase, a tight line height (0.98), and a desktop size of clamp(68px, 6.5vw, 96px). It becomes 76px at the intermediate breakpoint, 64px on mobile and 56px on narrow phones. Interior mobile page titles are 55px. Body text becomes 17px on mobile; general paragraphs are capped at 70ch, with narrower lead copy. Supporting fine print is 14px with a 1.5 line height.
 
-**The Heading Contrast Rule.** Reserve all-uppercase treatment for the homepage hero and brand; ordinary headings retain natural sentence casing.
+**The Heading Contrast Rule.** Reserve all-uppercase treatment for the homepage hero and brand. Ordinary headings use Chicago-style title capitalization, keeping articles, coordinating conjunctions, and short prepositions lowercase unless they begin or end the heading.
 
 ## Layout
 
-The shared container is capped at 1240px with 32px side gutters, reduced to 18px on mobile. Section spacing uses the fluid frontmatter token. Desktop layouts combine two-column text/media compositions, three-column service and locality groups, four-step process rows and reading columns with a 330px aside.
+The shared container is capped at 1180px with 32px side gutters, reduced to 18px on mobile. The homepage hero follows the same bounded frame instead of touching the viewport edges. Section spacing uses the compact fluid frontmatter token. Desktop layouts combine two-column text/media compositions, three-column service and locality groups, four-step process rows and reading columns with a 320px aside.
 
 At 1150px and below, gaps tighten and the header telephone block disappears. At 760px and below, primary splits and reading layouts stack; services, process steps, galleries and locality groups remain two-column where implemented. The service index becomes one-column. Navigation becomes a native disclosure menu, and a fixed red telephone bar includes bottom safe-area padding. The footer reserves 105px below its content for that bar. At 370px and below, locality groups become one-column. At 1500px and above, hero spacing and image crop adjust.
 
@@ -113,7 +113,7 @@ Controls, image fields and panels have square corners. One-pixel dividers organi
 
 ## Components
 
-- **Buttons:** solid blue for general actions, red for calls, white bold text, minimum height 56px and square corners. Hover darkens the fill and lifts ordinary buttons by 2px over 180ms ease-out. Call hover uses the implemented darker red. Mobile buttons reduce horizontal padding to 20px and use 16px text.
+- **Buttons:** solid blue for general actions, red for calls, white bold text, minimum height 56px and square corners. Every visible telephone number is enclosed by a red rectangular control, including header, footer, legal, contact and mobile contexts. Hover darkens the fill and lifts ordinary buttons by 2px over 180ms ease-out. Call hover uses the implemented darker red. Mobile buttons reduce horizontal padding to 20px and use 16px text.
 - **Text links and navigation:** ordinary links retain underlines; desktop navigation uses 15px semibold text and an underlined current item. The mobile menu uses native details/summary, closes on Escape or an outside click, and returns focus to its summary on Escape.
 - **Disclosures:** native details/summary presents symptom advice and FAQs with separating rules, blue plus/minus state markers, generous click rows and muted answer copy. These markers communicate state; they are not decorative iconography.
 - **Service tiles and indexes:** real photographs, condensed titles, concise muted descriptions and explicit service links. Tiles use a bottom rule and no enclosing raised card. Text indexes use rows with the service name and a secondary link label.
