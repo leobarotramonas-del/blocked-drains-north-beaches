@@ -17,7 +17,8 @@ const pageFaqs = faqsForPage(pathname);
 const canonical = new URL(pathname, site.url).href;
 // Production is public unless explicitly disabled for a staging build.
 const indexable = import.meta.env.PROD && import.meta.env.PUBLIC_ALLOW_INDEXING !== 'false' && !noindex;
-const analytics = import.meta.env.PROD && /^G-[A-Z0-9]+$/.test(import.meta.env.PUBLIC_GA_ID || '') ? import.meta.env.PUBLIC_GA_ID : '';
+const analyticsId = import.meta.env.PUBLIC_GA_ID || 'G-P1DMG58YXM';
+const analytics = import.meta.env.PROD && /^G-[A-Z0-9]+$/.test(analyticsId) ? analyticsId : '';
 const nav = [['Services','/services'],['Service areas','/service-areas'],['Our work','/our-work'],['Drain advice','/drain-advice'],['About','/about']];
 const structured = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'Plumber', '@id': `${site.url}/#business`, name: site.name, alternateName: site.operator, url: site.url, telephone: '+61493824176', image: `${site.url}/images/roots-1200.webp`, areaServed: areas.map(a => ({ '@type': 'Place', name: `${a.name}, NSW` })), hasCredential: { '@type': 'EducationalOccupationalCredential', name: `NSW contractor licence ${site.licence}`, credentialCategory: 'Contractor licence' }, openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '00:00', closes: '23:59' }] },
