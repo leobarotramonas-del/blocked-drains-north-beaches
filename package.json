@@ -10,6 +10,7 @@
     "preview": "astro preview --host 127.0.0.1 --port 4335",
     "check": "astro check",
     "check:site": "node scripts/check-site.mjs",
+    "check:analytics": "node scripts/check-analytics.mjs",
     "capture": "node scripts/capture.mjs",
     "media": "node scripts/prepare-media.mjs"
   },

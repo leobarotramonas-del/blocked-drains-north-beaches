@@ -24,7 +24,7 @@ Cloudflare Workers static-assets configuration is provided in `wrangler.jsonc`. 
 
 The dedicated `blocked-drains-north-beaches-www` Worker redirects the existing proxied www hostname to HTTPS on the apex, retaining paths and query strings. Deploy it separately with `npx wrangler deploy --config wrangler.redirect.jsonc` when its code or route changes. The main site remains static-only; the redirect Worker does not execute for apex page or asset requests.
 
-Google Analytics uses measurement ID `G-P1DMG58YXM` in production and records standard page activity plus phone-link click events. Set `PUBLIC_GA_ID` to override the production property for another deployment. Development mode does not load the Google script. No form backend, email address, office location or payment system is invented; booking is by working telephone links.
+Google Analytics uses measurement ID `G-P1DMG58YXM` in production and records standard page activity plus phone-link click events. The external Google tag loads after the visitor's first interaction so it does not delay the initial render; a phone-link interaction starts the tag before queuing the `phone_click` event. Set `PUBLIC_GA_ID` to override the production property for another deployment. Development mode does not load the Google script. No form backend, email address, office location or payment system is invented; booking is by working telephone links.
 
 ## Media
 

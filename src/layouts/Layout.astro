@@ -46,7 +46,39 @@ const structured = { '@context': 'https://schema.org', '@graph': [
   <meta property="og:image:alt" content="Drain technician holding a root mass removed during drainage work" />
   <meta name="twitter:card" content="summary_large_image" />
   <script type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g, '\\u003c')} />
-  {analytics && <><script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}></script><script is:inline define:vars={{ analytics }}>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config',analytics);document.addEventListener('click',e=>{if(e.target.closest('a[href^="tel:"]'))gtag('event','phone_click',{page_location:location.href})});</script></>}
+  {analytics && <script is:inline define:vars={{ analytics }}>
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+
+    let analyticsStarted = false;
+    const engagementEvents = ['pointerdown', 'keydown', 'wheel', 'touchstart'];
+
+    function startAnalytics() {
+      if (analyticsStarted) return;
+      analyticsStarted = true;
+
+      window.gtag('js', new Date());
+      window.gtag('config', analytics);
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(analytics)}`;
+      document.head.append(script);
+
+      engagementEvents.forEach(eventName => window.removeEventListener(eventName, startAnalytics));
+    }
+
+    engagementEvents.forEach(eventName => {
+      window.addEventListener(eventName, startAnalytics, { once: true, passive: true });
+    });
+
+    document.addEventListener('click', event => {
+      if (event.target.closest('a[href^="tel:"]')) {
+        startAnalytics();
+        window.gtag('event', 'phone_click', { page_location: location.href });
+      }
+    });
+  </script>}
 </head><body>
   <a class="skip" href="#main">Skip to content</a>
   <div class="utility"><div class="wrap"><span>Northern Beaches drain specialists</span><span>NSW licence {site.licence}<span class="utility-hours"> · Urgent calls 24/7</span></span></div></div>
