@@ -46,7 +46,7 @@ const structured = { '@context': 'https://schema.org', '@graph': [
   <meta property="og:image:alt" content="Drain technician holding a root mass removed during drainage work" />
   <meta name="twitter:card" content="summary_large_image" />
   <script type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g, '\\u003c')} />
-  {analytics && <><script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}></script><script is:inline define:vars={{ analytics }}>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config',analytics);document.addEventListener('click',e=>{if(e.target.closest('a[href^="tel:"]'))gtag('event','phone_call_click',{page_location:location.href})});</script></>}
+  {analytics && <><script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}></script><script is:inline define:vars={{ analytics }}>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config',analytics);document.addEventListener('click',e=>{if(e.target.closest('a[href^="tel:"]'))gtag('event','phone_click',{page_location:location.href})});</script></>}
 </head><body>
   <a class="skip" href="#main">Skip to content</a>
   <div class="utility"><div class="wrap"><span>Northern Beaches drain specialists</span><span>NSW licence {site.licence}<span class="utility-hours"> · Urgent calls 24/7</span></span></div></div>
