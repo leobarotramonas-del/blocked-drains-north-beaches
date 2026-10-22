@@ -1,4 +1,5 @@
 ---
+import WeekOneGuides from "../../components/WeekOneGuides.astro";
 import Layout from '../../layouts/Layout.astro';
 import Photo from '../../components/Photo.astro';
 import Cta from '../../components/Cta.astro';
@@ -13,4 +14,5 @@ const related = services.filter(x=>x.slug!==s.slug && ['cctv-drain-inspections',
   <section class="wrap page-hero"><div><h1>{s.name}<br /><span class="blue">Northern Beaches</span></h1><p class="lead">{s.intro}</p><div class="actions"><a class="button call" href={site.tel}>Call {site.phone}</a><a class="text-link" href="#approach">How we help</a></div><p class="fine">NSW contractor licence {site.licence} · Urgent calls welcome 24/7</p></div><Photo name={s.image} alt={s.alt} eager /></section>
   <div class="wrap content-layout"><article class="reading"><section><h2>Signs It’s Time for an Assessment</h2><ul class="signs">{s.signs.map(sign=><li>{sign}</li>)}</ul></section><section><h2>What Can Cause the Problem?</h2><p>{s.causes}</p></section><section id="approach"><h2>How Our Drainage Team Approaches It</h2><p>{s.approach}</p></section><section><h2>Equipment, Materials and Practical Judgement</h2><p>{s.equipment}</p><p>The skill is in choosing a method that suits the pipe, access and fault. We explain the findings and the limits of the work so you can make an informed decision.</p></section><section><h2>What This Method Can—and Cannot—Do</h2><p>{s.limits}</p></section><section><h2>What You Can Do Next</h2><p>{s.prevention}</p></section></article><aside class="aside"><h2>Make the First Call Useful</h2><p>Have your suburb, affected fixtures, fault history and access details ready. Mention chemicals already used and any active overflow.</p><a class="button call" href={site.tel}>{site.phone}</a><a href="/service-areas">Check your service area</a><a href="/our-work">See real team work</a><a href="/drain-advice/blocked-drain-costs">What affects the price?</a><a href="/drain-advice/jetting-relining-or-replacement">Compare repair approaches</a></aside></div>
   <section class="section related"><div class="wrap"><h2>Related Drainage Services</h2><div class="related-links">{related.map(r=><a href={`/services/${r.slug}`}>{r.name}</a>)}</div></div></section><Cta />
+  <WeekOneGuides service={Astro.url.pathname} title="Guides for this service" />
 </Layout>

@@ -1,8 +1,10 @@
 ---
+import WeekOneGuides from "../../components/WeekOneGuides.astro";
 import Layout from '../../layouts/Layout.astro';
 import Cta from '../../components/Cta.astro';
 import { guides } from '../../data/guides';
 ---
 <Layout title="Blocked Drain Advice | Causes, Costs & Repairs" description="Practical drain advice for Northern Beaches customers: what to do during an overflow, why drains keep blocking, cost factors and clearing versus repair." crumbs={[{name:'Drain advice',href:'/drain-advice'}]}>
   <div class="wrap intro-page"><h1>Understand the Problem<br /><span class="blue">Feel Clearer About the Fix</span></h1><p>Helpful answers for the decisions that come before—and after—a blocked-drain call.</p></div><section class="wrap section advice-list" style="padding-top:0">{guides.map(g=><article><h2><a href={`/drain-advice/${g.slug}`}>{g.title}</a></h2><div><p>{g.description}</p><a class="text-link" href={`/drain-advice/${g.slug}`}>Read the guide</a></div></article>)}</section><Cta />
+  <WeekOneGuides />
 </Layout>

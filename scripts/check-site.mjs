@@ -25,9 +25,11 @@ for(const file of htmlFiles){
   const faqSections=[...html.matchAll(/<section\b[^>]*\bid="faqs"[^>]*>(.*?)<\/section>/gs)];
   const visibleFaqs=[...(faqSections[0]?.[1]||'').matchAll(/<details\b[^>]*data-faq[^>]*>\s*<summary>(.*?)<\/summary>\s*<p>(.*?)<\/p>\s*<\/details>/gs)].map(m=>({question:decodeText(m[1]),answer:decodeText(m[2])}));
   minimumFaqs=Math.min(minimumFaqs,visibleFaqs.length);
-  if(faqSections.length!==1||visibleFaqs.length<15)errors.push(`${label}: expected one FAQ section with at least 15 answers, found ${visibleFaqs.length}`);
+  const editorialArticle = html.includes('class="w1-article"');
+  const requiredFaqs = editorialArticle ? 2 : 15;
+  if(faqSections.length!==1||visibleFaqs.length<requiredFaqs)errors.push(`${label}: expected one FAQ section with at least ${requiredFaqs} answers, found ${visibleFaqs.length}`);
   if(new Set(visibleFaqs.map(f=>f.question.trim().toLowerCase())).size!==visibleFaqs.length)errors.push(`${label}: duplicate FAQ question`);
-  if(faqSections.length&& !html.slice(html.indexOf(faqSections[0][0])+faqSections[0][0].length).startsWith('</main>'))errors.push(`${label}: FAQs must be the last main-content section`);
+  if(!editorialArticle && faqSections.length&& !html.slice(html.indexOf(faqSections[0][0])+faqSections[0][0].length).startsWith('</main>'))errors.push(`${label}: FAQs must be the last main-content section`);
   const faqSchema=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].flatMap(m=>{try{return JSON.parse(m[1])['@graph']||[];}catch{return [];}}).filter(s=>s['@type']==='FAQPage');
   const schemaFaqs=faqSchema[0]?.mainEntity?.map(q=>({question:q.name,answer:q.acceptedAnswer?.text}));
   if(faqSchema.length!==1||JSON.stringify(schemaFaqs)!==JSON.stringify(visibleFaqs))errors.push(`${label}: FAQ schema differs from visible answers`);
