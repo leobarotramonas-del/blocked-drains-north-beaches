@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22.12.0" },
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1 --port 4335",
-    "build": "astro check && astro build && node scripts/check-site.mjs",
+    "build": "astro check && astro build && node scripts/check-site.mjs && npm run check:blog-images",
     "preview": "astro preview --host 127.0.0.1 --port 4335",
     "check": "astro check",
     "check:site": "node scripts/check-site.mjs",
     "check:analytics": "node scripts/check-analytics.mjs",
     "capture": "node scripts/capture.mjs",
-    "media": "node scripts/prepare-media.mjs"
+    "media": "node scripts/prepare-media.mjs",
+    "check:blog-images": "node scripts/check-blog-images.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -21,5 +24,8 @@
     "astro": "^7.3.8",
     "typescript": "^5.9.2"
   },
-  "devDependencies": { "playwright-core": "^1.63.0", "sharp": "^0.35.5" }
+  "devDependencies": {
+    "playwright-core": "^1.63.0",
+    "sharp": "^0.35.5"
+  }
 }

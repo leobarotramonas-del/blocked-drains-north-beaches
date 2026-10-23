@@ -12,6 +12,6 @@ const seoTitles: Record<string,string> = {
   'jetting-relining-or-replacement': 'Drain Jetting vs Relining vs Replacement',
 };
 ---
-<Layout title={seoTitles[g.slug] || `${g.title} | Northern Beaches Drain Advice`} description={g.description} crumbs={[{name:'Drain advice',href:'/drain-advice'},{name:g.title,href:`/drain-advice/${g.slug}`}]}>
+<Layout title={seoTitles[g.slug] || `${g.title} | Northern Beaches Drain Advice`} description={g.description} articleImage={`/images/${service.image}-800.webp`} articleImageAlt={service.alt} crumbs={[{name:'Drain advice',href:'/drain-advice'},{name:g.title,href:`/drain-advice/${g.slug}`}]}>
   <div class="wrap intro-page"><h1>{g.title}</h1><p>{g.description}</p></div><div class="wrap content-layout"><article class="reading">{g.sections.map(([heading,text])=><section><h2>{heading}</h2><p>{text}</p></section>)}{g.source && <section class="sources"><h2>Further Guidance</h2><p>For wastewater blockage information and public network reporting:</p><a href={sources.blockages}>Sydney Water: wastewater blockages</a><a href={sources.report}>Sydney Water: report a fault</a></section>}</article><aside class="aside"><h2>Need Help with Your Drain?</h2><p>Tell us the symptoms and your Northern Beaches suburb. We’ll discuss a practical next step.</p><a class="button call" href={site.tel}>{site.phone}</a><a href={`/services/${service.slug}`}>{service.name}</a><a href="/service-areas">Find your service area</a><a href="/drain-advice">All drain advice</a></aside></div><Cta />
 </Layout>
