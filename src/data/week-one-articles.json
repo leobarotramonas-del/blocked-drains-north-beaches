@@ -345,5 +345,86 @@
     "photo": 55,
     "targetKeyword": "sand in stormwater drain",
     "researchStatus": "Ahrefs Australia checked 26 October 2026; unavailable metrics retained as unknown"
+  },
+  {
+    "id": "W02-09-2",
+    "title": "Outdoor Shower Drains Slowly: What We Check Before Choosing a Clearing Method",
+    "seoTitle": "Blocked Outdoor Shower Drain? Northern Beaches Checks",
+    "description": "Outdoor shower draining slowly? Check the outlet, drainage route and blockage symptoms before choosing a clearing method on the Northern Beaches.",
+    "slug": "outdoor-shower-drains-slowly-what-we-check-before-choosing-a-clearing-method",
+    "path": "/drain-advice/outdoor-shower-drains-slowly-what-we-check-before-choosing-a-clearing-method",
+    "indexPath": "/drain-advice",
+    "date": "2026-10-28",
+    "body": "<h2 id=\"is-water-reaching-the-drain-opening\">Is water reaching the drain opening?</h2>\n<p>Notice where water collects during normal use. If it pools away from the grate, surface levels or the path to the outlet may need assessment. If it reaches the opening but rises there, the grate, trap or connected pipe may be restricting flow.</p>\n<p>Stop using the shower if water is backing up or moving towards the building. Do not keep running it to test the limit. A wide photo can help explain where the water collects.</p>\n<h2 id=\"confirm-the-drainage-route-before-choosing-a-method\">Confirm the drainage route before choosing a method</h2>\n<p>An outdoor location does not tell us where the waste pipe goes. It may be part of a designed wastewater arrangement, and older alterations can leave its route unclear. Available plumbing plans or installation records are useful starting points, but the actual connection may still need checking.</p>\n<p>The Australian Government’s <a href=\"https://www.yourhome.gov.au/water/wastewater-reuse\">YourHome wastewater guide</a> includes shower water within greywater. Do not assume it can simply be redirected into a nearby stormwater pit or across the garden. Have the existing drainage arrangement assessed before changing its destination.</p>\n<h2 id=\"what-may-be-restricting-the-outlet\">What may be restricting the outlet?</h2>\n<h3 id=\"material-at-the-surface\">Material at the surface</h3>\n<p>Loose leaves, hair and sand can collect around an outdoor grate. If loose material is safely reachable without removing fixed fittings, keep it out of the outlet rather than washing it farther down. Avoid handling contaminated material.</p>\n<p>Do not force a stuck grate, remove a trap or push a hose into the pipe. A visible handful of sand may be only part of the issue. If water remains slow after surface debris is removed, the pipe and downstream route need consideration.</p>\n<h3 id=\"a-restriction-farther-along-the-pipe\">A restriction farther along the pipe</h3>\n<p>A shared drain problem can affect more than the outdoor shower. Tell us if nearby indoor fixtures are also slow, if the problem follows rain or if it returns soon after clearing. Those patterns help decide which route to investigate without assuming every outdoor blockage has the same cause.</p>\n<p>Our <a href=\"/services/blocked-sinks-showers\">Northern Beaches blocked shower drain service</a> assesses suitable access and clearing options. Camera inspection can be useful where equipment can enter and visibility allows, but a small opening or complete obstruction can limit what is seen initially.</p>\n<h2 id=\"prepare-a-useful-enquiry\">Prepare a useful enquiry</h2>\n<ol><li>Explain whether water pools away from the grate or backs up at it.</li><li>Describe when the problem started and any recent paving or plumbing changes.</li><li>Mention other slow fixtures and previous clearing attempts.</li><li>Send a safe photo of the shower area and available access route.</li></ol>\n<p>For a shared property, arrange access and identify who can approve work. Ask what the proposed visit includes, how any further repair would be quoted and whether clearing alone addresses the findings. A surface-level problem will not be corrected simply by putting more water through the pipe.</p>\n<p>Once flow is restored, discuss practical maintenance for that installation. Keeping loose debris out of the outlet may help, but recurring sand build-up or repeated backups deserve a closer look at how material enters and where it collects.</p>",
+    "faqs": [
+      [
+        "Is an outdoor shower drain always a stormwater drain?",
+        "No. Its location outside does not establish its approved connection or disposal arrangement. Check the installation rather than redirecting shower water to the nearest pit."
+      ],
+      [
+        "Will removing sand at the grate fix it?",
+        "It may help if the restriction is only at the surface. Persistent slow flow can involve the trap, connected pipe or another issue and needs further assessment."
+      ]
+    ],
+    "check": [
+      "Should I use a pressure washer to clear it?",
+      "Do not choose a pressure method before the drainage route and pipe condition are known. Water can back up or move debris into a harder-to-reach section. Describe the symptoms and have a suitable clearing approach assessed."
+    ],
+    "image": "/images/blog-w02-09-2-featured.webp",
+    "imageAlt": "Antons plumber working on a shower installation",
+    "width": 960,
+    "height": 1280,
+    "caption": "Company shower-plumbing photo; the drainage route and access of an outdoor installation need their own assessment.",
+    "service": "/services/blocked-sinks-showers",
+    "category": "Shower drains",
+    "words": 794,
+    "introduction": "<p>A blocked outdoor shower drain may contain sand, hair or other debris, but the right clearing method depends on where it drains and how it can be accessed. First establish whether water is collecting at the grate, backing up from the pipe or failing to run towards the outlet. Those are different problems.</p>",
+    "takeaways": [
+      "Do not assume an outdoor shower connects to stormwater.",
+      "Surface pooling and a blocked pipe need different investigations.",
+      "Sand or hair at the grate does not identify every obstruction below.",
+      "Choose clearing equipment after checking the drain route and access."
+    ],
+    "headings": [
+      {
+        "depth": 2,
+        "id": "is-water-reaching-the-drain-opening",
+        "label": "Is water reaching the drain opening?"
+      },
+      {
+        "depth": 2,
+        "id": "confirm-the-drainage-route-before-choosing-a-method",
+        "label": "Confirm the drainage route before choosing a method"
+      },
+      {
+        "depth": 2,
+        "id": "what-may-be-restricting-the-outlet",
+        "label": "What may be restricting the outlet?"
+      },
+      {
+        "depth": 3,
+        "id": "material-at-the-surface",
+        "label": "Material at the surface"
+      },
+      {
+        "depth": 3,
+        "id": "a-restriction-farther-along-the-pipe",
+        "label": "A restriction farther along the pipe"
+      },
+      {
+        "depth": 2,
+        "id": "prepare-a-useful-enquiry",
+        "label": "Prepare a useful enquiry"
+      }
+    ],
+    "conclusion": "Identify where water collects and where the shower drains before choosing equipment. That separates a surface problem from a pipe blockage and helps the clearing plan address the actual installation.",
+    "ctaAnchor": "blocked shower drain clearing on the Northern Beaches",
+    "ctaTail": "Give us a call with the drainage symptoms and a photo of the area so we can discuss an assessment.",
+    "ctaButton": "Call now for advice",
+    "updatedDate": "2026-10-28",
+    "serviceURL": "/services/blocked-sinks-showers",
+    "site": 8,
+    "serviceSlug": "blocked-sinks-showers",
+    "photo": 13
   }
 ]
