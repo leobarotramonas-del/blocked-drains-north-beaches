@@ -151,8 +151,7 @@ export function faqsForPage(pathname: string): { title: string; items: Faq[] } {
   if (service) return { title: `Questions about ${service.name}`, items: serviceFaqs(service) };
   const guide = guides.find(g => route === `/drain-advice/${g.slug}`);
   if (guide) {
-    const questions = guideQuestions[guide.slug];
-    return { title: 'More Answers about This Drain Issue', items: finish([...guide.sections.map((section, i) => qa(questions[i], section[1])), ...general.slice(0, 15 - guide.sections.length)]) };
+    return { title: 'More Answers about This Drain Issue', items: guide.faqs.map(([question, answer]) => qa(question, answer)) };
   }
   if (route === '/privacy') return { title: 'Website Privacy Questions', items: finish(privacy) };
   if (route === '/terms') return { title: 'Booking and Service Questions', items: finish(terms) };
