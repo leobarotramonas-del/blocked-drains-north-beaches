@@ -611,5 +611,118 @@
     "site": 8,
     "serviceSlug": "blocked-sinks-showers",
     "photo": 13
+  },
+  {
+    "site": 8,
+    "seoTitle": "Drain Camera Stuck at a Bend: What Can It Confirm?",
+    "category": "Drain inspections",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 4,
+    "description": "A drain camera stopping at a bend is an incomplete inspection, not proof of collapse. Learn what a Northern Beaches CCTV report should explain.",
+    "imageAlt": "Drain camera equipment and a monitor showing the inside of a pipe",
+    "caption": "Inspection footage should be reported with the entry point, visible findings and the limits of access.",
+    "introduction": "<p>If a drain camera cannot pass a bend, it can only confirm what was visible in the section it reached. The stopping point does not automatically prove a collapsed pipe. Ask for the inspected extent, the reason access stopped if known, and the next step for checking the unseen section.</p>",
+    "takeaways": [
+      "A camera stopping is not a diagnosis of pipe collapse.",
+      "The report should separate observed defects from uninspected pipe.",
+      "Water, debris, bends and access can limit the view.",
+      "Another entry or suitable clearing may be needed before further inspection."
+    ],
+    "body": "<h2 id=\"what-the-camera-has-actually-seen\">What the camera has actually seen</h2><p>A useful inspection records the access point, direction travelled and visible condition of the pipe. Clear footage may show roots, a displaced joint or accumulated material. Where the image is obscured, the report should say so rather than describing the whole line as checked.</p><p>For a <a href=\"/services/cctv-drain-inspections\">CCTV drain inspection on the Northern Beaches</a>, explain the problem you want answered. A recurring blockage, suspected damage and a pre-repair check are related but different questions. The inspection needs to address the relevant section, not merely produce a video.</p><h2 id=\"why-a-bend-can-stop-the-inspection\">Why a bend can stop the inspection</h2><p>The camera head and cable have to negotiate the actual pipe route. Tight or successive bends, a change in pipe size, an awkward entry and material in the line can restrict progress. The operator should distinguish a visible obstruction from a limit that cannot be established from the image.</p><h3 id=\"stopping-does-not-prove-collapse\">Stopping does not prove collapse</h3><p>If the camera meets resistance, forcing it is not a reliable diagnostic method. A claim of collapse needs supporting evidence. Ask what can be seen at the stopping point and whether the interpretation is certain, likely or still unresolved.</p><p>The displayed travel distance is also not automatically a straight-line position across your garden. Pipe routes turn, and equipment readings need context. If excavation is proposed, ask how the relevant position will be established on site.</p><h2 id=\"when-clearing-or-another-entry-may-help\">When clearing or another entry may help</h2><p>Debris or standing water can obscure the camera’s view. Suitable clearing may improve visibility, although the pipe condition and access must be assessed first. A second entry point may allow inspection from the other direction and help fill the gap.</p><p>Neither option guarantees a complete inspection. The next step should be chosen for the question still unanswered. Ask whether the proposed additional work is intended to restore flow, inspect an unseen section or locate a confirmed defect; those are different outcomes.</p><h2 id=\"read-the-report-for-its-limits\">Read the report for its limits</h2><p>A useful report or handover should make these points clear:</p><ul><li>Where the camera entered and which direction it travelled.</li><li>Which sections were visible and which were not.</li><li>The observed findings, with relevant footage or images.</li><li>Why progress stopped, where that can be determined.</li><li>The proposed next step and any remaining uncertainty.</li></ul><p>If the report says “all clear” but also says the camera could not pass a bend, ask which part was cleared or inspected. A working drain after the visit is useful evidence of flow at that time; it is not a complete condition report for unseen pipe.</p><h2 id=\"use-the-findings-to-choose-the-next-job\">Use the findings to choose the next job</h2><p>Before accepting a repair recommendation, connect it to the recorded finding and confirmed location. Ask what alternatives are suitable for the actual defect and what evidence would change the scope. You should be able to understand why more investigation or a particular repair is proposed.</p><p>While waiting, take a continuing backup seriously. <a href=\"https://www.sydneywater.com.au/plumbing-building-developing/plumbing/wastewater-blockages.html\">Sydney Water identifies slow fixtures, gurgling and wastewater overflows as blockage warning signs</a>. Avoid contact with an overflow and explain the active symptoms when arranging help.</p><p>Keep the original footage and written findings for any follow-up. That allows a later inspection to start with the known access limit and outstanding question, rather than treating an incomplete visit as if no useful information was collected.</p>",
+    "check": [
+      "Does “camera stopped” justify replacing the pipe?",
+      "Ask for the visible defect, the inspected section and how the fault location was confirmed. If the camera only met an unexplained restriction, further investigation may still be needed."
+    ],
+    "faqs": [
+      [
+        "Can a drain camera go around every bend?",
+        "No. The pipe layout, camera size, entry angle and conditions inside the pipe can limit progress."
+      ],
+      [
+        "Does resistance mean the pipe has collapsed?",
+        "No. A bend, obstruction or equipment access limit can also cause resistance. The finding needs supporting evidence."
+      ],
+      [
+        "Can the camera see through dirty standing water?",
+        "Visibility can be limited. The report should identify obscured sections rather than describe them as fully inspected."
+      ],
+      [
+        "Will water jetting always let the camera through?",
+        "No. Suitable clearing may help with material in the pipe, but it will not change every bend or access limitation."
+      ],
+      [
+        "Can the drain be inspected from the other end?",
+        "Sometimes, if a suitable access point is available. Ask whether that route can cover the uninspected section."
+      ],
+      [
+        "Is the distance on the screen the digging location?",
+        "Not by itself. The pipe route and on-site locating need to be considered before an excavation position is agreed."
+      ],
+      [
+        "Can a partial inspection still be useful?",
+        "Yes. It can document the reached section and narrow the next question, provided its limits are clearly recorded."
+      ],
+      [
+        "Should I receive the camera footage?",
+        "Ask what footage, images or report is included when booking. Keep the supplied records with any repair recommendation."
+      ],
+      [
+        "Does free-flowing water prove the pipe is undamaged?",
+        "No. Flow after clearing does not establish the condition of parts the camera could not inspect."
+      ],
+      [
+        "What should I ask before approving a repair?",
+        "Ask which observed defect is being repaired, how its location was confirmed and what uncertainty remains beyond the inspected section."
+      ]
+    ],
+    "conclusion": "A partial camera inspection should produce a clear account of what is known and what remains unseen. Use that distinction to choose the next investigation or repair with confidence.",
+    "ctaAnchor": "CCTV drain inspections on the Northern Beaches",
+    "ctaTail": "Send us any earlier footage and explain where the inspection stopped. Give us a call to discuss the access and findings needed for the next step.",
+    "id": "W02-09-3",
+    "title": "Drain Camera Cannot Get Past a Bend: What Can the Inspection Actually Confirm?",
+    "slug": "drain-camera-cannot-get-past-a-bend-what-can-the-inspection-actually-confirm",
+    "date": "2026-10-31",
+    "updatedDate": "2026-10-31",
+    "indexPath": "/drain-advice",
+    "path": "/drain-advice/drain-camera-cannot-get-past-a-bend-what-can-the-inspection-actually-confirm",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "what-the-camera-has-actually-seen",
+        "label": "What the camera has actually seen"
+      },
+      {
+        "depth": 2,
+        "id": "why-a-bend-can-stop-the-inspection",
+        "label": "Why a bend can stop the inspection"
+      },
+      {
+        "depth": 3,
+        "id": "stopping-does-not-prove-collapse",
+        "label": "Stopping does not prove collapse"
+      },
+      {
+        "depth": 2,
+        "id": "when-clearing-or-another-entry-may-help",
+        "label": "When clearing or another entry may help"
+      },
+      {
+        "depth": 2,
+        "id": "read-the-report-for-its-limits",
+        "label": "Read the report for its limits"
+      },
+      {
+        "depth": 2,
+        "id": "use-the-findings-to-choose-the-next-job",
+        "label": "Use the findings to choose the next job"
+      }
+    ],
+    "words": 1025,
+    "image": "/images/blog-w02-09-3-featured.webp",
+    "width": 960,
+    "height": 960
   }
 ]
