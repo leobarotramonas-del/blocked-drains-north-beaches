@@ -146,7 +146,7 @@ const pageIntros: Record<string, Faq[]> = {
 export function faqsForPage(pathname: string): { title: string; items: Faq[] } {
   const route = pathname.replace(/\/$/, '') || '/';
   const area = areas.find(a => route === `/service-areas/${a.slug}`);
-  if (area) return { title: `Blocked Drain Questions for ${area.name}`, items: areaFaqs(area) };
+  if (area) return { title: `Blocked Drain Questions for ${area.name}`, items: area.slug === "north-balgowlah" ? areaFaqs(area).filter((_, i) => i !== 2 && i !== 3) : areaFaqs(area) };
   const service = services.find(s => route === `/services/${s.slug}`);
   if (service) return { title: `Questions about ${service.name}`, items: serviceFaqs(service) };
   const guide = guides.find(g => route === `/drain-advice/${g.slug}`);
