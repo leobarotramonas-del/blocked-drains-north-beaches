@@ -1073,5 +1073,118 @@
     "image": "/images/blog-w03-09-3-featured.webp",
     "width": 640,
     "height": 854
+  },
+  {
+    "site": 8,
+    "category": "CCTV drain inspections",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 20,
+    "seoTitle": "Drain Camera Before Manly Renovation | What to Check",
+    "description": "Planning a Manly renovation? Check which accessible drains a camera inspection can assess before paving, extensions or new fixtures alter access.",
+    "imageAlt": "Exposed drainage pipe during excavation",
+    "caption": "A renovation can expose existing drainage and make a documented check useful before finishes go down.",
+    "introduction": "<p>Before a Manly renovation covers paving or changes bathroom connections, identify the drains affected by the work and ask whether a camera inspection is useful. Existing blockages, uncertain routes or buried access points can complicate construction. A camera can document accessible pipework, but it cannot inspect an unreachable line or replace plumbing plans and approvals.</p>",
+    "takeaways": [
+      "Mark visible inspection points before work starts.",
+      "Share renovation plans and known drain symptoms.",
+      "Ask which pipe sections the camera can actually reach.",
+      "Keep footage and locations for the builder and plumber."
+    ],
+    "faqs": [
+      [
+        "Is a camera inspection always needed before renovation?",
+        "No. Use it when the pipe condition or route affects a decision."
+      ],
+      [
+        "Can it inspect every branch?",
+        "Only accessible sections the camera can reach."
+      ],
+      [
+        "Should a blockage be cleared first?",
+        "Sometimes, if it prevents the camera from passing."
+      ],
+      [
+        "Does a camera replace plumbing plans?",
+        "No. Keep both findings and available plans."
+      ],
+      [
+        "Can a pit and sewer cap be confused?",
+        "Yes. Have uncertain openings identified before work."
+      ],
+      [
+        "What if the property is strata?",
+        "Arrange common-area access and approval with the building contact."
+      ],
+      [
+        "Will footage show the exact pipe position?",
+        "A locator may help, but request a clear recorded position."
+      ],
+      [
+        "Can old pipes be left in place?",
+        "That depends on condition and renovation requirements."
+      ],
+      [
+        "Should access be covered by paving?",
+        "Plan suitable ongoing access before finishes are laid."
+      ],
+      [
+        "What should the report include?",
+        "Route, visible defects, limits and any recommended follow-up."
+      ]
+    ],
+    "conclusion": "A targeted camera check can give renovation decisions a firmer basis when drainage condition or location is uncertain. Agree the question, access and reporting scope before work starts.",
+    "ctaAnchor": "Manly CCTV drain inspection service",
+    "ctaTail": "Call Blocked Drains Northern Beaches with the renovation plan and any drain symptoms.",
+    "body": "<h2 id=\"start-with-the-planned-work\">Start with the planned work</h2><p>A bathroom refit, rear extension and patio replacement affect different parts of a property. Show the plumber the plan, proposed fixture locations and surfaces that will be opened or covered. Ask which existing drainage connections matter to the design. Do not commission a blanket camera survey without a question it should answer; useful inspection has a defined route and decision.</p><h2 id=\"identify-safe-access-points\">Identify safe access points</h2><p>Walk the property and note visible caps, pits and grates without lifting heavy covers. A stormwater pit is not necessarily access to the sewer. At a Manly unit, a building manager may need to provide access to common service areas. Explain parking, stairs and narrow paths so the camera equipment can reach the intended point. If an opening will later sit under paving, resolve its finished access before construction.</p><h2 id=\"set-expectations-for-the-footage\">Set expectations for the footage</h2><p>A suitable camera can reveal visible cracks, roots, displaced joints or deposits in an accessible section. It may not pass a complete blockage or prove the condition of unseen branches. Ask for the route, distance, notable findings and any limits to be recorded. If locating equipment is used, have the position marked against fixed property features. The report should separate what was seen from what remains uncertain.</p><h2 id=\"use-results-in-the-renovation-scope\">Use results in the renovation scope</h2><p>A confirmed defect may justify repair while access is easier, but not every older pipe requires replacement. Ask the plumber and builder how any drainage work affects the design, approvals and sequencing. Keep the footage and updated access information with the project file. NSW's <a href=\"https://www.nsw.gov.au/housing-and-construction/compliance-and-regulation/plumbers-and-drainers/standards-and-notes/general-accessibility-requirements\">inspection-opening guidance</a> explains why required access matters; the detail for your project should be checked before finishes are installed.</p><h2 id=\"do-not-let-construction-hide-uncertainty\">Do not let construction hide uncertainty</h2><p>A builder may be ready to pour a slab or lay pavers before drainage questions are settled. Pause that finish if the pipe route, access opening or confirmed defect affects it. Ask the plumber to describe what was checked and what could not be reached. The resulting information should be shared with the designer and contractor before final levels or fixture positions are locked in.</p><h2 id=\"keep-a-useful-project-record\">Keep a useful project record</h2><p>Save the inspection date, footage, marked access points and any repair recommendations with the renovation documents. If a contractor later exposes pipework, compare the actual route with the earlier findings and update the plan. A drain that looked clear on the day of inspection can still need suitable connections and ongoing access after the renovation. Ask for those details in the final handover.</p>",
+    "check": [
+      "Before booking",
+      "Write down the main symptom, when it began, who can approve access and any previous repair findings. Keep people clear of water or equipment that may be unsafe."
+    ],
+    "id": "W04-09-1",
+    "title": "Camera Inspection Before a Manly Renovation: Which Drains Need Checking?",
+    "slug": "camera-inspection-before-a-manly-renovation-which-drains-need-checking",
+    "date": "2026-11-09",
+    "updatedDate": "2026-11-09",
+    "indexPath": "/drain-advice",
+    "path": "/drain-advice/camera-inspection-before-a-manly-renovation-which-drains-need-checking",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "start-with-the-planned-work",
+        "label": "Start with the planned work"
+      },
+      {
+        "depth": 2,
+        "id": "identify-safe-access-points",
+        "label": "Identify safe access points"
+      },
+      {
+        "depth": 2,
+        "id": "set-expectations-for-the-footage",
+        "label": "Set expectations for the footage"
+      },
+      {
+        "depth": 2,
+        "id": "use-results-in-the-renovation-scope",
+        "label": "Use results in the renovation scope"
+      },
+      {
+        "depth": 2,
+        "id": "do-not-let-construction-hide-uncertainty",
+        "label": "Do not let construction hide uncertainty"
+      },
+      {
+        "depth": 2,
+        "id": "keep-a-useful-project-record",
+        "label": "Keep a useful project record"
+      }
+    ],
+    "words": 759,
+    "image": "/images/blog-w04-09-1-featured.webp",
+    "width": 800,
+    "height": 800
   }
 ]
