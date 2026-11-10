@@ -145,6 +145,23 @@ const pageIntros: Record<string, Faq[]> = {
 
 export function faqsForPage(pathname: string): { title: string; items: Faq[] } {
   const route = pathname.replace(/\/$/, '') || '/';
+  if (route === '/') return { title: 'Before You Call', items: [
+    qa('Is urgent help available?', 'Urgent calls are taken 24/7. Attendance is confirmed by phone.'),
+    qa('What should I stop doing?', 'Stop using affected fixtures and keep people away from wastewater.'),
+    qa('What determines the cost?', 'Access, equipment, the blockage and any separate repair scope.'),
+    qa('Can you inspect with a camera?', 'Yes, where access and visibility allow. Clearing may come first.'),
+    qa('Does clearing repair a broken pipe?', 'No. A damaged section needs a separate repair assessment.'),
+    qa('Do you work with strata?', 'Yes. Provide the building contact, affected units and access details.'),
+    qa('What information helps when booking?', 'Your address, symptoms, fault history and safe access arrangements.'),
+    qa('Can every pipe be relined?', 'No. Condition, alignment and access determine whether relining is suitable.'),
+    qa('Should I add drain chemicals?', 'Avoid adding chemicals. Tell us about any products already used.'),
+    qa('Are these videos local job records?', 'They show work by the Antons team across Sydney.'),
+    qa('Can I request an inspection report?', 'Yes. Confirm the recording and reporting scope when booking.'),
+    qa('Can a slow sink have a local blockage?', 'Yes. Several affected fixtures can suggest a downstream restriction.'),
+    qa('Are rain-related problems different?', 'Yes. Stormwater and wastewater require different assessments.'),
+    qa('Are you a licensed operator?', 'Antons Plumbing & Gas operates under NSW contractor licence 210933C.'),
+    qa('Is there an office in every suburb?', 'No. This is a mobile drainage service.')
+  ] };
   const area = areas.find(a => route === `/service-areas/${a.slug}`);
   if (area) {
     const items = area.slug === "north-balgowlah" ? areaFaqs(area).filter((_, i) => i !== 2 && i !== 3) : areaFaqs(area);
