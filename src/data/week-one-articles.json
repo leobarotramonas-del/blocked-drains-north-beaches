@@ -1186,5 +1186,118 @@
     "image": "/images/blog-w04-09-1-featured.webp",
     "width": 800,
     "height": 800
+  },
+  {
+    "site": 8,
+    "category": "Drain repairs",
+    "serviceSlug": "drain-repairs-excavation",
+    "photo": 43,
+    "seoTitle": "Dee Why Drain Reblocks | Repair or Another Jet?",
+    "description": "A Dee Why drain blocking again after clearing needs an evidence-led choice between another jet, inspection and a defined pipe repair.",
+    "imageAlt": "Exposed drainage pipe ready for repair",
+    "caption": "A recurring blockage needs its cause and location recorded before repair is priced.",
+    "introduction": "<p>If a Dee Why drain blocks again soon after clearing, another jet may restore flow but may not fix the reason it keeps stopping. Ask for the dates of earlier work, a camera inspection where suitable and a written explanation of the pipe condition. A repair makes sense when a confirmed defect is causing repeat blockages and its location and scope are clear.</p>",
+    "takeaways": [
+      "Record how soon symptoms returned after clearing.",
+      "Use a camera to look for a repeat fault where accessible.",
+      "Compare cleaning with repair against actual findings.",
+      "Get a quote covering access, work and reinstatement."
+    ],
+    "faqs": [
+      [
+        "Is repeat jetting always wasteful?",
+        "No. The cause and pipe condition determine whether maintenance is suitable."
+      ],
+      [
+        "Can roots grow back after clearing?",
+        "Yes, if the entry point remains open."
+      ],
+      [
+        "Does a camera prove a pipe needs replacement?",
+        "It can show a defect, but the repair length still needs assessment."
+      ],
+      [
+        "What if the camera cannot pass?",
+        "Record the stopping point and clear or access it before deciding."
+      ],
+      [
+        "Will relining suit every defect?",
+        "No. Pipe condition and geometry determine suitability."
+      ],
+      [
+        "Is excavation always necessary?",
+        "No. Choose the method after locating and assessing the fault."
+      ],
+      [
+        "What should the quote identify?",
+        "Fault location, repair length, method and reinstatement."
+      ],
+      [
+        "Who is responsible near the street?",
+        "Check the connection and asset boundary with Sydney Water."
+      ],
+      [
+        "What if only one fixture is slow?",
+        "It may be a local branch; describe the pattern."
+      ],
+      [
+        "What records should I save?",
+        "Clearing dates, footage, location, repair scope and final test."
+      ]
+    ],
+    "conclusion": "A recurring blockage is a reason to locate and understand the fault. Another jet can be a sensible short-term step, but a confirmed damaged pipe needs a repair decision based on its condition and access.",
+    "ctaAnchor": "Dee Why drain repair service",
+    "ctaTail": "Call Blocked Drains Northern Beaches with the previous clearing dates and camera findings.",
+    "body": "<h2 id=\"describe-the-time-between-blockages\">Describe the time between blockages</h2><p>Write down when the drain was last cleared and when it slowed again. Note whether the same toilet, gully or sink is affected and whether sewage is overflowing. Keep people away from contaminated water. A blockage returning within days is a different pattern from a single event years later. These details help the technician choose the inspection route and assess whether the earlier work reached the actual restriction.</p><h2 id=\"inspect-after-suitable-clearing\">Inspect after suitable clearing</h2><p>A camera can show roots, deposits, a displaced joint or a cracked section in a pipe it can reach. Sometimes the line must first be cleared enough to allow a useful view. Ask for the entry point, measured distance and an image of the surrounding pipe, not only a close-up of the obstruction. If the camera stops or water obscures the view, the report should record that limit.</p><h2 id=\"decide-when-another-jet-is-reasonable\">Decide when another jet is reasonable</h2><p>Jetting may remove a build-up and restore flow in a sound line. It may also be needed before a camera can pass. But repeated clearing cannot seal a broken joint or straighten a collapsed section. Ask whether the technician found a structural fault or only a removable blockage, and whether the pipe was checked after cleaning. The decision should follow that distinction rather than a fixed rule about how many jets are too many.</p><h2 id=\"compare-repair-methods-with-access\">Compare repair methods with access</h2><p>If a defect is confirmed, discuss its length, position, pipe material, bends and connections. Some pipes may suit a lining method; others need excavation or a different repair. Ask how junctions and access points will remain functional. A quote should include the method, surface opening, spoil, testing and reinstatement. A low headline price that excludes paving or garden repair is hard to compare fairly.</p><h2 id=\"check-which-network-is-involved\">Check which network is involved</h2><p>Sydney Water’s <a href=\"https://www.sydneywater.com.au/plumbing-building-developing/plumbing/wastewater-blockages.html\">wastewater blockage guidance</a> distinguishes private pipes from its network and advises a licensed plumber for private blockages. The location of the fault matters before responsibility is assigned. Tell the plumber whether neighbours are also affected and whether overflow occurs only during use at your property. Avoid digging near a public asset without the appropriate checks.</p><h2 id=\"keep-evidence-for-the-next-decision\">Keep evidence for the next decision</h2><p>Save the earlier service records, camera footage, marked location and any repair photos. After the work, ask how flow and pipe condition were checked. If a remaining branch could not be inspected, have that noted. A useful handover makes future maintenance more targeted and helps a later plumber see whether a new blockage is at the repaired point or somewhere else on the property.</p>",
+    "check": [
+      "Before booking",
+      "Record earlier jetting dates, affected fixtures and whether any camera footage exists."
+    ],
+    "id": "W04-09-2",
+    "title": "A Dee Why Drain Keeps Blocking After Clearing: Repair or Another Jet?",
+    "slug": "a-dee-why-drain-keeps-blocking-after-clearing-repair-or-another-jet",
+    "date": "2026-11-11",
+    "updatedDate": "2026-11-11",
+    "indexPath": "/drain-advice",
+    "path": "/drain-advice/a-dee-why-drain-keeps-blocking-after-clearing-repair-or-another-jet",
+    "service": "/services/drain-repairs-excavation",
+    "serviceURL": "/services/drain-repairs-excavation",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "describe-the-time-between-blockages",
+        "label": "Describe the time between blockages"
+      },
+      {
+        "depth": 2,
+        "id": "inspect-after-suitable-clearing",
+        "label": "Inspect after suitable clearing"
+      },
+      {
+        "depth": 2,
+        "id": "decide-when-another-jet-is-reasonable",
+        "label": "Decide when another jet is reasonable"
+      },
+      {
+        "depth": 2,
+        "id": "compare-repair-methods-with-access",
+        "label": "Compare repair methods with access"
+      },
+      {
+        "depth": 2,
+        "id": "check-which-network-is-involved",
+        "label": "Check which network is involved"
+      },
+      {
+        "depth": 2,
+        "id": "keep-evidence-for-the-next-decision",
+        "label": "Keep evidence for the next decision"
+      }
+    ],
+    "words": 771,
+    "image": "/images/blog-w04-09-2-featured.webp",
+    "width": 640,
+    "height": 854
   }
 ]
