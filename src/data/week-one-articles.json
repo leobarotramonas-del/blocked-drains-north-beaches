@@ -1422,5 +1422,118 @@
     "image": "/images/blog-w04-09-3-featured.webp",
     "width": 800,
     "height": 1067
+  },
+  {
+    "site": 8,
+    "category": "High-pressure water jetting",
+    "serviceSlug": "high-pressure-water-jetting",
+    "photo": 49,
+    "seoTitle": "Blocked Drain in Avalon | Jetting or Pipe Repair?",
+    "description": "A blocked Avalon drain may clear with high-pressure water jetting, but a damaged pipe needs more than cleaning. Learn what each finding means.",
+    "imageAlt": "Drain technicians working beside a service vehicle on a suburban street",
+    "caption": "Jetting removes suitable obstructions; it cannot rebuild a damaged pipe wall.",
+    "introduction": "<p>Jetting can clear an Avalon drain blocked by suitable grease, silt or roots, provided access and pipe condition allow it. It cannot repair a collapsed, badly displaced or cracked pipe. A drain plumber should identify the affected line, clear it safely where possible and use inspection evidence to decide whether cleaning is enough or a targeted repair is needed.</p>",
+    "takeaways": [
+      "Jetting is a cleaning method, not a pipe repair.",
+      "Confirm the drain entry point and pipe condition before using pressure.",
+      "Recurring blockages justify checking for an underlying defect.",
+      "Ask for the camera finding and repair location before agreeing to excavation."
+    ],
+    "faqs": [
+      [
+        "Can jetting remove tree roots?",
+        "It can cut or clear some intruding roots, but it does not close the entry defect."
+      ],
+      [
+        "Will jetting fix a collapsed pipe?",
+        "No. A collapsed section needs a repair assessment."
+      ],
+      [
+        "Is jetting suitable for every old pipe?",
+        "No. Access and pipe condition must be considered first."
+      ],
+      [
+        "Do I need a camera before jetting?",
+        "The sequence depends on whether the camera can see through the blockage and the condition is known."
+      ],
+      [
+        "Can jetting clear beach sand or silt?",
+        "It may remove deposits in a suitable drain, but the source should be found if they return."
+      ],
+      [
+        "Why does the drain block again?",
+        "A continuing source of debris, poor fall or pipe defect may remain."
+      ],
+      [
+        "Does a clear drain prove the pipe is sound?",
+        "No. A camera may be needed to assess the pipe wall."
+      ],
+      [
+        "When might relining be considered?",
+        "When the pipe is structurally suitable and junctions can be treated correctly."
+      ],
+      [
+        "What if the drain crosses a neighbour’s land?",
+        "Clarify the pipe route and permissions before invasive repair."
+      ],
+      [
+        "What should a quote distinguish?",
+        "Clearing, CCTV inspection, fault location and any separate repair work."
+      ]
+    ],
+    "body": "<h2 id=\"locate-the-affected-drain-first\">Locate the affected drain first</h2><p>A slow shower, overflowing yard pit and backing-up toilet do not necessarily share the same pipe. Tell the plumber which fixtures are affected, when the problem appears and whether rain changes it. An accessible inspection opening or pit can make clearing safer and more controlled. Do not put a jetting nozzle into an unknown pipe just because water is standing nearby. The line, flow direction and likely downstream outlet should be understood first.</p><h2 id=\"what-jetting-can-remove\">What jetting can remove</h2><p>High-pressure water can scour suitable grease deposits, silt and some root growth from accessible drains. The nozzle and pressure should suit the pipe and blockage. It is a way to remove material and restore flow, not a treatment for a broken pipe wall. If a drain fills with sand again soon after cleaning, ask where the material is entering rather than scheduling the same cleaning indefinitely.</p><h2 id=\"what-cleaning-cannot-repair\">What cleaning cannot repair</h2><p>A crushed section, open joint or badly offset pipe may catch debris every time water passes. Jetting might temporarily improve flow without changing the shape of the pipe. In a fragile line, the plumber must consider whether the method is appropriate at all. Ask what happened during clearing: did the nozzle pass the full run, did flow return, and did the same obstruction reappear when the line was tested?</p><h2 id=\"use-a-camera-for-a-recurring-problem\">Use a camera for a recurring problem</h2><p>Once the line is open enough to see, a CCTV camera can reveal roots, cracks, displaced joints or a low section holding debris. Record the distance from the access point and use a locator where a repair position is uncertain. A camera view has limits: murky water and impassable bends can hide sections. Ask to see the relevant footage rather than accepting a repair recommendation based on a single unexplained still image.</p><h2 id=\"compare-repair-options-against-the-finding\">Compare repair options against the finding</h2><p>A localised defect may allow a targeted excavation; a structurally suitable run may be considered for relining. Junctions, diameter, pipe shape, depth and access can change the choice. Ask what work will restore the drain, how it will be tested and what surfaces must be made good. Sydney Water’s <a href=\"https://www.sydneywater.com.au/plumbing-building-developing/plumbing/wastewater-blockages.html\">blockage guidance</a> explains why the fault location also matters for responsibility.</p><h2 id=\"keep-the-cleaning-and-repair-scopes-separate\">Keep the cleaning and repair scopes separate</h2><p>A quote should state whether it covers locating access, jetting, camera inspection, footage, repair and reinstatement. Do not assume a low clearing price includes a repair if the camera later finds a broken pipe. NSW requires an appropriate licence for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">draining work</a>. Keep the report and before and after observations so a future call starts with evidence rather than repeating the first visit.</p>",
+    "conclusion": "Jetting is useful when the drain is blocked by material it can safely remove. If the pipe itself has failed, use the inspection result to choose a repair that addresses the cause.",
+    "ctaAnchor": "Avalon high-pressure drain jetting service",
+    "ctaTail": "Call Blocked Drains Northern Beaches with the affected drain, access details and any prior inspection footage.",
+    "check": [
+      "Quick check",
+      "Did the drain stay clear after cleaning, or did the same backup return? That history changes the next step."
+    ],
+    "id": "W05-09-1",
+    "title": "Blocked Drain in Avalon: What Can Jetting Clear and What Needs Repair?",
+    "slug": "blocked-drain-in-avalon-what-can-jetting-clear-and-what-needs-repair",
+    "date": "2026-11-16",
+    "updatedDate": "2026-11-16",
+    "indexPath": "/drain-advice",
+    "path": "/drain-advice/blocked-drain-in-avalon-what-can-jetting-clear-and-what-needs-repair",
+    "service": "/services/high-pressure-water-jetting",
+    "serviceURL": "/services/high-pressure-water-jetting",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "locate-the-affected-drain-first",
+        "label": "Locate the affected drain first"
+      },
+      {
+        "depth": 2,
+        "id": "what-jetting-can-remove",
+        "label": "What jetting can remove"
+      },
+      {
+        "depth": 2,
+        "id": "what-cleaning-cannot-repair",
+        "label": "What cleaning cannot repair"
+      },
+      {
+        "depth": 2,
+        "id": "use-a-camera-for-a-recurring-problem",
+        "label": "Use a camera for a recurring problem"
+      },
+      {
+        "depth": 2,
+        "id": "compare-repair-options-against-the-finding",
+        "label": "Compare repair options against the finding"
+      },
+      {
+        "depth": 2,
+        "id": "keep-the-cleaning-and-repair-scopes-separate",
+        "label": "Keep the cleaning and repair scopes separate"
+      }
+    ],
+    "words": 827,
+    "image": "/images/blog-w05-09-1-featured.webp",
+    "width": 800,
+    "height": 1067
   }
 ]
