@@ -8,14 +8,15 @@
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1 --port 4335",
-    "build": "astro check && astro build && node scripts/check-site.mjs && npm run check:blog-images",
+    "build": "astro check && astro build && node scripts/check-site.mjs && npm run check:blog-images && npm run check:video-dates",
     "preview": "astro preview --host 127.0.0.1 --port 4335",
     "check": "astro check",
     "check:site": "node scripts/check-site.mjs",
     "check:analytics": "node scripts/check-analytics.mjs",
     "capture": "node scripts/capture.mjs",
     "media": "node scripts/prepare-media.mjs",
-    "check:blog-images": "node scripts/check-blog-images.mjs"
+    "check:blog-images": "node scripts/check-blog-images.mjs",
+    "check:video-dates": "node scripts/check-video-dates.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
