@@ -1535,5 +1535,118 @@
     "image": "/images/blog-w05-09-1-featured.webp",
     "width": 800,
     "height": 1067
+  },
+  {
+    "site": 8,
+    "category": "Blocked toilets",
+    "serviceSlug": "blocked-toilets",
+    "photo": 34,
+    "seoTitle": "Freshwater Unit Toilet Blocked: Pan, Branch or Shared Sewer?",
+    "description": "A blocked toilet in a Freshwater unit could be local or on a shared line. Check the signs, avoid overflow and give strata useful information.",
+    "imageAlt": "Plumber checking a residential wastewater drainage line",
+    "caption": "A blockage location matters more than the first fixture to show symptoms.",
+    "introduction": "<p>If a Freshwater apartment toilet is backing up, stop flushing and check whether the shower or other drains are affected. A single pan can block locally, while several fixtures or units reporting trouble point toward a branch or shared line. Tell the building manager promptly if wastewater is rising or another unit is affected. A plumber can locate the obstruction before anyone assumes who should pay for the repair.</p>",
+    "takeaways": [
+      "Do not repeatedly flush a rising toilet.",
+      "Check other fixtures without adding much water.",
+      "Report multi-unit symptoms to strata quickly.",
+      "Locate the fault before deciding on a repair or responsibility."
+    ],
+    "faqs": [
+      [
+        "Can a toilet pan block on its own?",
+        "Yes. A local obstruction may affect only that toilet."
+      ],
+      [
+        "Why is wastewater coming up in the shower?",
+        "A downstream branch or shared line may be obstructed; a plumber should locate it."
+      ],
+      [
+        "Should I ask my neighbour?",
+        "Yes, if practical. Similar symptoms in another unit are useful evidence."
+      ],
+      [
+        "Who handles a shared sewer repair?",
+        "The strata manager should assess common property responsibility using the pipe location and strata plan."
+      ],
+      [
+        "Can I use chemical cleaner?",
+        "Avoid it, especially when wastewater may overflow or a plumber will open the line."
+      ],
+      [
+        "Can a plunger fix the problem?",
+        "It may clear a simple pan obstruction; stop if water rises or the blockage returns."
+      ],
+      [
+        "When is it urgent?",
+        "Escaping sewage, rising water or multiple affected units need prompt action."
+      ],
+      [
+        "Can a camera find the cause?",
+        "It can show an accessible, visible section after clearing if needed."
+      ],
+      [
+        "What should I tell the plumber?",
+        "List affected fixtures, timing, earlier blockages and any other affected units."
+      ],
+      [
+        "Should I use another bathroom?",
+        "Avoid using connected fixtures if wastewater is backing up elsewhere."
+      ]
+    ],
+    "body": "<h2 id=\"prevent-an-overflow-first\">Prevent an overflow first</h2><p>Stop flushing when the water level rises. If the cistern keeps running, use its isolation tap if safe. Keep people away from any sewage and move belongings out of the affected area. Avoid testing the shower with a long flow of water; a small check is enough to reveal whether it drains poorly. If wastewater is already escaping, contact the building manager and a plumber promptly.</p><h2 id=\"compare-the-symptoms-across-fixtures\">Compare the symptoms across fixtures</h2><p>One affected toilet can point to a blockage in the pan or its immediate branch. If a shower gurgles or backs up when the toilet is flushed, the obstruction may be further downstream. Similar complaints from another unit raise the possibility of a shared line. None of these signs alone locates the fault, but they tell the plumber which access points to check.</p><h2 id=\"give-strata-the-facts-early\">Give strata the facts early</h2><p>Tell the strata manager when the issue started, which fixtures are affected and whether another unit has similar symptoms. Ask about access to shared inspection points. NSW guidance says the owners corporation maintains common property, but the <a href=\"https://www.nsw.gov.au/housing-and-construction/strata/living/repairs-and-maintenance\">strata plan and actual pipe location</a> matter. Do not delay reporting a possible shared blockage while the payment question is being worked out.</p><h2 id=\"use-the-inspection-to-locate-the-obstruction\">Use the inspection to locate the obstruction</h2><p>A licensed plumber can test and clear an accessible line, then inspect if the cause is uncertain or the problem keeps returning. Ask where the blockage was found and whether it was in a pan, lot branch, shared branch or downstream connection. Sydney Water’s <a href=\"https://www.sydneywater.com.au/faults-works/wastewater-blockages.html\">wastewater blockage guide</a> explains that the location of a fault affects responsibility at the network boundary.</p><h2 id=\"consider-cctv-for-repeat-problems\">Consider CCTV for repeat problems</h2><p>A camera may show roots, an offset joint or pipe damage after enough clearing to see the wall. Ask for footage, the access point, direction and fault distance. If the camera could not pass or visibility was poor, the report should say so. Do not agree to relining or excavation solely because a pipe blocked once; the proposed repair should match a visible defect and the pipe’s condition.</p><h2 id=\"keep-a-record-for-the-next-decision\">Keep a record for the next decision</h2><p>Save photographs of any overflow, a note of affected fixtures and the plumber’s findings. Ask whether the line was fully cleared, whether a defect remains and what would trigger further work. Share the report with strata where a common line may be involved. A precise location and clear limits help the owners corporation decide on access, repairs and follow-up without repeating the same investigation.</p>",
+    "conclusion": "A blocked Freshwater unit toilet can be a pan issue or a shared drainage problem. Protect the unit, report useful symptoms and get the blockage located before choosing a permanent repair.",
+    "ctaAnchor": "Freshwater blocked toilet service",
+    "ctaTail": "Call Blocked Drains Northern Beaches and tell us which fixtures and units are affected so we can plan an efficient inspection.",
+    "check": [
+      "Before calling",
+      "Record the first symptom, affected fixtures, any overflow and whether a neighbour has the same issue."
+    ],
+    "id": "W05-09-2",
+    "title": "Blocked Toilet in a Freshwater Unit: Pan, Branch or Shared Sewer?",
+    "slug": "blocked-toilet-in-a-freshwater-unit-pan-branch-or-shared-sewer",
+    "date": "2026-11-18",
+    "updatedDate": "2026-11-18",
+    "indexPath": "/drain-advice",
+    "path": "/drain-advice/blocked-toilet-in-a-freshwater-unit-pan-branch-or-shared-sewer",
+    "service": "/services/blocked-toilets",
+    "serviceURL": "/services/blocked-toilets",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "prevent-an-overflow-first",
+        "label": "Prevent an overflow first"
+      },
+      {
+        "depth": 2,
+        "id": "compare-the-symptoms-across-fixtures",
+        "label": "Compare the symptoms across fixtures"
+      },
+      {
+        "depth": 2,
+        "id": "give-strata-the-facts-early",
+        "label": "Give strata the facts early"
+      },
+      {
+        "depth": 2,
+        "id": "use-the-inspection-to-locate-the-obstruction",
+        "label": "Use the inspection to locate the obstruction"
+      },
+      {
+        "depth": 2,
+        "id": "consider-cctv-for-repeat-problems",
+        "label": "Consider CCTV for repeat problems"
+      },
+      {
+        "depth": 2,
+        "id": "keep-a-record-for-the-next-decision",
+        "label": "Keep a record for the next decision"
+      }
+    ],
+    "words": 799,
+    "image": "/images/blog-w05-09-2-featured.webp",
+    "width": 938,
+    "height": 745
   }
 ]
