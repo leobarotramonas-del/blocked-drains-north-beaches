@@ -1648,5 +1648,118 @@
     "image": "/images/blog-w05-09-2-featured.webp",
     "width": 938,
     "height": 745
+  },
+  {
+    "site": 8,
+    "category": "CCTV drain inspections",
+    "serviceSlug": "cctv-drain-inspections",
+    "photo": 54,
+    "seoTitle": "Frenchs Forest CCTV Drain Inspection: What Should the Video Show?",
+    "description": "A Frenchs Forest CCTV drain inspection should show the defect, its distance and the limits of visibility so a repair quote answers the right question.",
+    "imageAlt": "Tree roots removed from a blocked drainage pipe",
+    "caption": "The useful part of the recording is the visible, located fault.",
+    "introduction": "<p>For a Frenchs Forest drain, useful CCTV footage should show the pipe after enough clearing to see its wall, identify any defect and record where it lies. A video that stops at murky water confirms only that the camera could not see or pass. Ask for the access point, travel direction, fault distance and a plain-language finding so the next repair decision rests on evidence.</p>",
+    "takeaways": [
+      "Agree what question the inspection must answer.",
+      "Clean enough to see the wall when safe for the pipe.",
+      "Record the access point and fault location.",
+      "Keep the video and any limits with the repair quote."
+    ],
+    "faqs": [
+      [
+        "Can CCTV see through wastewater?",
+        "Visibility may be poor; clearing can be needed first."
+      ],
+      [
+        "What should a root finding show?",
+        "Where roots enter and the surrounding pipe condition, if visible."
+      ],
+      [
+        "Is a distance counter a location?",
+        "It helps, but surface locating may be needed before excavation."
+      ],
+      [
+        "Can a camera prove a pipe has good fall?",
+        "It may show standing water, but accurate grade requires more assessment."
+      ],
+      [
+        "Will the camera reach the main?",
+        "Only if access and pipe condition allow it to pass."
+      ],
+      [
+        "Can it show an open joint?",
+        "Yes, where the joint is visible and the image is clear."
+      ],
+      [
+        "Should I get the full video?",
+        "Agree what footage and report are included before booking."
+      ],
+      [
+        "Does a crack mean I need relining?",
+        "No. Repair choice depends on location, structure and access."
+      ],
+      [
+        "What if the camera stops early?",
+        "The report should state the inspected length and the reason it stopped."
+      ],
+      [
+        "What should the quote refer to?",
+        "The recorded defect, location, repair method, access and testing."
+      ]
+    ],
+    "body": "<h2 id=\"set-the-question-before-the-camera-goes-in\">Set the question before the camera goes in</h2><p>Tell the plumber whether the drain repeatedly blocks, backs up after rain or needs a repair assessment. The operator should identify the affected line and a suitable access point. A long video of clean pipe may be less useful than a short clip that answers the actual question. If the site has several branches, ask which one will be inspected and whether more than one entry point is needed.</p><h2 id=\"make-the-inside-of-the-pipe-visible\">Make the inside of the pipe visible</h2><p>Roots, grease, silt and standing water can hide the wall. Clearing or jetting a suitable line first may improve the view, but the method must suit the pipe’s condition. Do not demand high pressure in a visibly broken or fragile run. The report should state whether the pipe was cleared and how far the camera could see. Poor visibility is a limit to record, not a reason to guess.</p><h2 id=\"record-route-and-fault-distance\">Record route and fault distance</h2><p>The recording should name the access point, travel direction and distance to each important finding. A camera head locator can help mark a fault on the surface where conditions allow. Bends and cable movement mean distance alone may be insufficient for a precise dig position. Ask for a sketch or marked location if excavation is being proposed, and confirm other buried services before ground is opened.</p><h2 id=\"show-context-around-the-defect\">Show context around the defect</h2><p>A crack, open joint, root entry or collapse should be shown with pipe immediately before and after it. That context helps determine whether damage is local or part of a longer failing run. A still image is useful, but adjoining video shows whether the camera passed the fault. Ask the plumber to distinguish a deposit removed during cleaning from a structural problem that remains.</p><h2 id=\"link-the-finding-to-the-proposed-work\">Link the finding to the proposed work</h2><p>A repair quote should explain why cleaning, a local dig or relining fits the recorded defect. Ask how branches will be handled and how the result will be tested. Sydney Water’s <a href=\"https://www.sydneywater.com.au/build-develop/plumbing/wastewater-investigation-guide.html\">wastewater investigation guide</a> explains the importance of locating a blockage and checking responsibility. NSW also requires the appropriate licence for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">drainage work</a>.</p><h2 id=\"keep-a-report-you-can-reuse\">Keep a report you can reuse</h2><p>Request the video, key stills, fault distances, access notes, inspected length and any visibility limits. Save past blockage dates alongside the report. If a property manager or another contractor reviews the finding, they can compare the same evidence rather than repeating the inspection. A clear record is especially valuable when the defect sits near a connection and the responsibility boundary needs checking.</p>",
+    "conclusion": "Good CCTV footage in Frenchs Forest makes a drainage decision clearer. It shows the relevant defect, where it is and what remained unseen before anyone commits to a repair.",
+    "ctaAnchor": "Frenchs Forest CCTV drain inspection service",
+    "ctaTail": "Call Blocked Drains Northern Beaches and tell us what the camera visit needs to decide.",
+    "check": [
+      "Before booking",
+      "Ask whether the service includes cleaning if needed, fault location, footage and a written summary."
+    ],
+    "id": "W05-09-3",
+    "title": "CCTV Drain Inspection in Frenchs Forest: What Should the Recording Show?",
+    "slug": "cctv-drain-inspection-in-frenchs-forest-what-should-the-recording-show",
+    "date": "2026-11-20",
+    "updatedDate": "2026-11-20",
+    "indexPath": "/drain-advice",
+    "path": "/drain-advice/cctv-drain-inspection-in-frenchs-forest-what-should-the-recording-show",
+    "service": "/services/cctv-drain-inspections",
+    "serviceURL": "/services/cctv-drain-inspections",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "set-the-question-before-the-camera-goes-in",
+        "label": "Set the question before the camera goes in"
+      },
+      {
+        "depth": 2,
+        "id": "make-the-inside-of-the-pipe-visible",
+        "label": "Make the inside of the pipe visible"
+      },
+      {
+        "depth": 2,
+        "id": "record-route-and-fault-distance",
+        "label": "Record route and fault distance"
+      },
+      {
+        "depth": 2,
+        "id": "show-context-around-the-defect",
+        "label": "Show context around the defect"
+      },
+      {
+        "depth": 2,
+        "id": "link-the-finding-to-the-proposed-work",
+        "label": "Link the finding to the proposed work"
+      },
+      {
+        "depth": 2,
+        "id": "keep-a-report-you-can-reuse",
+        "label": "Keep a report you can reuse"
+      }
+    ],
+    "words": 783,
+    "image": "/images/blog-w05-09-3-featured.webp",
+    "width": 640,
+    "height": 854
   }
 ]
