@@ -1761,5 +1761,118 @@
     "image": "/images/blog-w05-09-3-featured.webp",
     "width": 640,
     "height": 854
+  },
+  {
+    "site": 8,
+    "category": "Stormwater drains",
+    "serviceSlug": "blocked-stormwater-drains",
+    "photo": 59,
+    "seoTitle": "Seaforth Patio Drain Overflows | What to Check",
+    "description": "A Seaforth patio drain overflows while the street stays dry? Find whether the grate, pit outlet or private stormwater pipe is restricting flow.",
+    "imageAlt": "Outdoor stormwater pit and outlet on a property",
+    "caption": "A patio drain can overflow even when the wider street drainage is working normally.",
+    "introduction": "<p>If a Seaforth patio drain overflows while the street is dry, start with the property’s own grate, pit outlet and connected stormwater line. A local blockage or poor pipe fall can hold water independently of the street system. Clear loose surface debris only when safe, record which nearby drains also rise, and have the outlet traced before paying for a new grate or patio works.</p>",
+    "takeaways": [
+      "A dry street does not rule out a private stormwater problem.",
+      "Check the grate and visible pit outlet before the buried line.",
+      "Overflow at several points suggests a shared downstream restriction.",
+      "Ask for evidence before excavating paving."
+    ],
+    "faqs": [
+      [
+        "Why is the patio wet when the street is dry?",
+        "The property’s local drain can fail without a street-drain problem."
+      ],
+      [
+        "Can a full grate cause overflow?",
+        "Yes. Leaves or sand may obstruct the opening."
+      ],
+      [
+        "Will a larger grate solve it?",
+        "Not if the outlet or pipe below cannot carry water away."
+      ],
+      [
+        "Can sand block a patio pit?",
+        "Yes. Silt can accumulate below the grate and at the outlet."
+      ],
+      [
+        "Should I lift a heavy pit lid?",
+        "No. Leave unsafe or heavy covers to a contractor."
+      ],
+      [
+        "Does water rise at other drains?",
+        "That pattern helps locate a shared downstream restriction."
+      ],
+      [
+        "When is a camera worth using?",
+        "When the outlet route is unclear or clearing does not hold."
+      ],
+      [
+        "Can roots be the cause?",
+        "They may enter a damaged line, but footage should confirm it."
+      ],
+      [
+        "Will the paving need lifting?",
+        "Only if the fault and suitable access require it."
+      ],
+      [
+        "What should the contractor provide?",
+        "The traced route, findings, repair scope and a final flow check."
+      ]
+    ],
+    "body": "<h2 id=\"separate-local-drainage-from-street-drainage\">Separate local drainage from street drainage</h2><p>A patio pit usually collects water from a small private area and sends it through a property stormwater line. The street can remain dry while that private outlet is blocked. Note whether water rises from inside the pit or simply runs across paving too quickly to enter the grate. These are different problems. A phone photo during rain and another after it stops can show whether the pit drains down or stays full. Avoid stepping into a flooded area near electrics.</p><h2 id=\"check-the-grate-and-pit-without-taking-risks\">Check the grate and pit without taking risks</h2><p>When the rain has eased, remove leaves, litter and loose sand from the grate if you can do so safely. Keep debris out of the pit. If the cover is heavy, bolted or under water, do not force it. Surface cleaning may restore flow when the obstruction is visible; it will not fix a blocked outlet below. Look at any nearby downpipe or courtyard drain that joins the same line. The location of the first overflow is useful, but not necessarily the location of the blockage.</p><h2 id=\"trace-the-buried-outlet\">Trace the buried outlet</h2><p>A specialist can identify accessible inspection points and the intended path to discharge. If more than one pit fills together, the common line downstream is a logical place to test. If only the patio pit holds water, its short outlet or connection may be the issue. A traced route is especially useful before lifting paving, because an excavation at the visible puddle may miss the fault. Ask for the proposed access point and the reason it was chosen.</p><h2 id=\"use-clearing-and-camera-work-appropriately\">Use clearing and camera work appropriately</h2><p>Jetting may remove silt, leaf matter and loose debris. Camera footage after clearing can show root entry, a broken junction, a sag or a displaced joint. A camera result should include the approximate fault location and what was visible, not just a conclusion that the whole pipe must be replaced. NSW requires the right licence or certificate for <a href=\"https://www.nsw.gov.au/business-and-economy/licences-and-credentials/building-and-trade-licences-and-registrations/plumbing-draining-and-gasfitting\">draining work</a>. Ask whether a clean-out alone is expected to last.</p><h2 id=\"consider-the-patio-surface-too\">Consider the patio surface too</h2><p>If water runs across the patio without reaching the grate, the surface fall, grate position or new landscaping may matter. If the pit fills from below, the buried outlet deserves attention first. Tell the contractor whether the problem began after paving, a garden redesign or a new downpipe connection. Those changes can alter how much water enters a small line. Do not add a new grate without confirming where it will discharge; extra collection cannot fix a blocked destination.</p><h2 id=\"ask-for-a-repair-tied-to-evidence\">Ask for a repair tied to evidence</h2><p>A sound quote distinguishes grate cleaning, pit clearing, pipe jetting and any permanent repair. If paving must be lifted, ask how much, who reinstates it and what buried services need locating. Request photos or footage and a flow test after the work. If the pit remains full after a clean line, discuss pipe gradient or pit level rather than repeating the same jetting. This gives you a decision based on the system, not on the wet patch alone.</p>",
+    "conclusion": "A Seaforth patio can flood for a local reason even when the street is clear. Trace the pit outlet and shared line before deciding whether cleaning or repair is needed.",
+    "ctaAnchor": "Seaforth blocked stormwater drain service",
+    "ctaTail": "Call Blocked Drains Northern Beaches with rain and dry-weather photos to arrange the right drain check.",
+    "check": [
+      "Overflow pattern",
+      "Does water rise from the pit, or run across the paving without entering it? This changes which part needs checking first."
+    ],
+    "id": "W06-09-1",
+    "title": "A Seaforth Patio Drain Overflows but the Street Is Dry: What Should Be Checked?",
+    "slug": "a-seaforth-patio-drain-overflows-but-the-street-is-dry-what-should-be-checked",
+    "date": "2026-11-23",
+    "updatedDate": "2026-11-23",
+    "indexPath": "/drain-advice",
+    "path": "/drain-advice/a-seaforth-patio-drain-overflows-but-the-street-is-dry-what-should-be-checked",
+    "service": "/services/blocked-stormwater-drains",
+    "serviceURL": "/services/blocked-stormwater-drains",
+    "ctaButton": "Call now for advice",
+    "headings": [
+      {
+        "depth": 2,
+        "id": "separate-local-drainage-from-street-drainage",
+        "label": "Separate local drainage from street drainage"
+      },
+      {
+        "depth": 2,
+        "id": "check-the-grate-and-pit-without-taking-risks",
+        "label": "Check the grate and pit without taking risks"
+      },
+      {
+        "depth": 2,
+        "id": "trace-the-buried-outlet",
+        "label": "Trace the buried outlet"
+      },
+      {
+        "depth": 2,
+        "id": "use-clearing-and-camera-work-appropriately",
+        "label": "Use clearing and camera work appropriately"
+      },
+      {
+        "depth": 2,
+        "id": "consider-the-patio-surface-too",
+        "label": "Consider the patio surface too"
+      },
+      {
+        "depth": 2,
+        "id": "ask-for-a-repair-tied-to-evidence",
+        "label": "Ask for a repair tied to evidence"
+      }
+    ],
+    "words": 879,
+    "image": "/images/blog-w06-09-1-featured.webp",
+    "width": 640,
+    "height": 800
   }
 ]
