@@ -1,4 +1,6 @@
 ---
+import { organizationSchema } from '../data/organization-schema';
+import seoOverrides from '../data/seo-overrides.json';
 import '@fontsource/barlow/latin-400.css';
 import '@fontsource/barlow/latin-600.css';
 import '@fontsource/barlow/latin-700.css';
@@ -11,7 +13,10 @@ import { areas } from '../data/areas';
 import Faq from '../components/Faq.astro';
 import { faqsForPage } from '../data/faqs';
 interface Props { title: string; description: string; crumbs?: { name: string; href: string }[]; schema?: Record<string, unknown>[]; noindex?: boolean; article?: boolean; articleImage?: string; articleImageAlt?: string }
-const { title, description, crumbs = [], schema = [], noindex = false, article = false, articleImage, articleImageAlt } = Astro.props;
+const { title: suppliedTitle, description: suppliedDescription, crumbs = [], schema = [], noindex = false, article = false, articleImage, articleImageAlt } = Astro.props;
+const seo = (seoOverrides as Record<string, { title?: string; description?: string }>)[Astro.url.pathname.replace(/\/$/, '') || '/'] ?? {};
+const title = seo.title ?? suppliedTitle;
+const description = seo.description ?? suppliedDescription;
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
 const pageFaqs = faqsForPage(pathname);
 const canonical = new URL(pathname, site.url).href;
@@ -45,7 +50,7 @@ const structured = { '@context': 'https://schema.org', '@graph': [
   <meta property="og:image" content={articleImage ? new URL(articleImage, site.url).href : `${site.url}/images/roots-1200.webp`} />
   <meta property="og:image:alt" content={articleImageAlt ?? "Drain technician holding a root mass removed during drainage work"} />
   <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json" set:html={JSON.stringify(structured).replace(/</g, '\\u003c')} />
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema(structured, canonical, site.name, '/favicon.png')).replace(/</g, '\\u003c')} />
   {analytics && <script is:inline define:vars={{ analytics }}>
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
